@@ -244,8 +244,8 @@
 <p>那么我们就先考虑在 <code>a</code> 这个串中如何统计答案，最后将 $k$ 个串平起来的答案直接乘上去就好了。</p>
 <p>对于字符串 <code>a</code>，记最高位为第 $0$ 位，最低位为第 $n-1$ 位，根据乘法及加法原理，有：</p>
 <script type="math/tex; mode=display">
-ans_a = 2^0 \times (a_0 == 5 || a_0 == 0) +</script><script type="math/tex; mode=display">
-2^1 \times (a_1 == 5 || a_1 == 0) + \cdots + 2^{n-1} \times (a_{n-1} == 5 || a_{n-1} == 0)</script><p>那么我们对于 $k$ 个 <code>a</code>，有这样的方案：</p>
+ans_a = 2^0 \times (a_0 == 5 || a_0 == 0) + 2^1 \times (a_1 == 5 || a_1 == 0)</script><script type="math/tex; mode=display">
++ \cdots + 2^{n-1} \times (a_{n-1} == 5 || a_{n-1} == 0)</script><p>那么我们对于 $k$ 个 <code>a</code>，有这样的方案：</p>
 <script type="math/tex; mode=display">
 ans_1 = ans_a \ \times\ (2^n)^0</script><script type="math/tex; mode=display">
 ans_2 = ans_a \ \times\ (2^n)^1</script><script type="math/tex; mode=display">
