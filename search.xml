@@ -59,8 +59,13 @@ ANS = ans_1 \ \times\ \frac{2^{nk}-1}{2^n-1}</script><p>其中 $n$ 为字符串�
 	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 &#125;</code></pre></p>
 ]]></content>
+      <categories>
+        <category>题解 - CodeForces</category>
+      </categories>
       <tags>
-        <tag>数学,组合,计数,CodeForces</tag>
+        <tag>数学</tag>
+        <tag>组合计数</tag>
+        <tag>CodeForces</tag>
       </tags>
   </entry>
 </search>
