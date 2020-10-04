@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>\[CodeForces\]\[数学\]\[组合\]\[快速幂\]\ CF327C\ Magic\ Five</title>
+    <link href="/2020/10/04/CodeForces-%E6%95%B0%E5%AD%A6-%E7%BB%84%E5%90%88-%E5%BF%AB%E9%80%9F%E5%B9%82-CF327C-Magic-Five/"/>
+    <url>/2020/10/04/CodeForces-%E6%95%B0%E5%AD%A6-%E7%BB%84%E5%90%88-%E5%BF%AB%E9%80%9F%E5%B9%82-CF327C-Magic-Five/</url>
+    
+    <content type="html"><![CDATA[<h1 id="题面"><a href="#题面" class="headerlink" title="题面"></a><a href="https://codeforces.com/problemset/problem/327/C">题面</a></h1><p>首先可以想到 $5$ 的倍数一定以 $5$ 或 $0$ 结尾，也就是我们选择的一段数字，只要保证结尾为 $0$ 或 $5$，前面数字是什么是无关答案，可以任选的。、<br>那么我们就先考虑在 <code>a</code> 这个串中如何统计答案，最后将 $k$ 个串平起来的答案直接乘上去就好了。</p><p>对于字符串 <code>a</code>，记最高位为第 $0$ 位，最低位为第 $n-1$ 位，根据乘法及加法原理，有：</p><script type="math/tex; mode=display">ans_a = 2^0 \times (a_0 == 5 || a_0 == 0) + 2^1 \times (a_1 == 5 || a_1 == 0) + \cdots + 2^{n-1} \times (a_{n-1} == 5 || a_{n-1} == 0)</script><p>那么我们对于 $k$ 个 <code>a</code>，有这样的方案：</p><script type="math/tex; mode=display">ans_1 = ans_a \ \times\ (2^n)^0 \\ans_2 = ans_a \ \times\ (2^n)^1 \\ ans_3 = ans_a \ \times\ (2^n)^2 \\\cdots \\ans_k = ans_a \ \times\ (2^n)^{k-1}</script><p>对答案求一下和，发现其实就是等比数列求和，得到以下结果：</p><script type="math/tex; mode=display">ANS = ans_1 \ \times\ \frac{2^{nk}-1}{2^n-1}</script><p>其中 $n$ 为字符串长度。<br>于是这道题只剩下轻松愉快的快速幂和费马小定理求逆元了。</p><p><strong>代码：</strong><br><pre><code class="hljs C++"><span class="hljs-comment">// 只要保证最后一位是 0 或 1，就能被 5 整除</span><span class="hljs-comment">// 所以答案是每一个 5 或非前导 0 之前的部分求方案</span><span class="hljs-comment">// s 不需要显式的建出来，每一个串对应多更新答案</span><span class="hljs-comment">// 前导 0 计算在结果中</span><span class="hljs-meta"># <span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span><span class="hljs-meta"># <span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;cstdio&gt;</span></span><span class="hljs-meta"># <span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;string&gt;</span></span><span class="hljs-keyword">const</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> MOD = <span class="hljs-number">1e9</span>+<span class="hljs-number">7</span>;<span class="hljs-function"><span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-title">QPow</span><span class="hljs-params">(<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> x, <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> y)</span></span>&#123;<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> ans = <span class="hljs-number">1</span>, base = x%MOD;<span class="hljs-keyword">while</span>(y)&#123;<span class="hljs-keyword">if</span>(y &amp; <span class="hljs-number">1</span>)&#123;ans = (ans * base) % MOD;&#125;base = (base * base) % MOD;y &gt;&gt;= <span class="hljs-number">1</span>;&#125;<span class="hljs-keyword">return</span> ans;&#125;<span class="hljs-function"><span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-title">Inv</span><span class="hljs-params">(<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> x)</span></span>&#123;<span class="hljs-keyword">return</span> QPow(x, MOD<span class="hljs-number">-2</span>);&#125;<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span> a; <span class="hljs-keyword">int</span> k;<span class="hljs-built_in">std</span>::<span class="hljs-built_in">cin</span>&gt;&gt;a&gt;&gt;k;<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> ans = <span class="hljs-number">0</span>;<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt;= a.length()<span class="hljs-number">-1</span>; i++)&#123;<span class="hljs-keyword">if</span>(a[i] == <span class="hljs-string">&#x27;0&#x27;</span> || a[i] == <span class="hljs-string">&#x27;5&#x27;</span>)&#123;ans = (ans + QPow(<span class="hljs-number">2</span>, i)) % MOD;&#125;&#125;<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%lld&quot;</span>, (((ans * (QPow(<span class="hljs-number">2</span>, <span class="hljs-number">1l</span>l*a.length()*k) - <span class="hljs-number">1</span>)) % MOD) * Inv(QPow(<span class="hljs-number">2</span>, a.length())<span class="hljs-number">-1</span>)) % MOD);<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;&#125;</code></pre></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>数学 组合 计数</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>断章 卞之琳</title>
     <link href="/2020/10/04/%E6%96%AD%E7%AB%A0-%E5%8D%9E%E4%B9%8B%E7%90%B3/"/>
     <url>/2020/10/04/%E6%96%AD%E7%AB%A0-%E5%8D%9E%E4%B9%8B%E7%90%B3/</url>
