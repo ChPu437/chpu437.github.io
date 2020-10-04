@@ -344,7 +344,7 @@ img[srcset] {
     :root:not([data-user-color-scheme]) .navbar .dropdown-collapse,
     :root:not([data-user-color-scheme]) .top-nav-collapse,
     :root:not([data-user-color-scheme]) .navbar-col-show {
-      background: rgba(31,49,68,0.7);
+      background: rgba(31,49,68,0.4);
       -webkit-backdrop-filter: blur(3px);
       backdrop-filter: blur(3px);
     }
@@ -430,7 +430,7 @@ img[srcset] {
   [data-user-color-scheme='dark'] .navbar .dropdown-collapse,
   [data-user-color-scheme='dark'] .top-nav-collapse,
   [data-user-color-scheme='dark'] .navbar-col-show {
-    background: rgba(31,49,68,0.7);
+    background: rgba(31,49,68,0.4);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -802,7 +802,7 @@ img[srcset] {
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: rgba(82,97,106,0.7);
+    background: rgba(82,97,106,0.4);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }

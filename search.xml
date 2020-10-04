@@ -3,15 +3,17 @@
   <entry>
     <title>[CodeForces][数学][组合][快速幂] CF327C Magic Five</title>
     <url>/2020/10/04/CodeForces-%E6%95%B0%E5%AD%A6-%E7%BB%84%E5%90%88-%E5%BF%AB%E9%80%9F%E5%B9%82-CF327C-Magic-Five/</url>
-    <content><![CDATA[<h1 id="题面"><a href="#题面" class="headerlink" title="题面"></a><a href="https://codeforces.com/problemset/problem/327/C">题面</a></h1><p>首先可以想到 $5$ 的倍数一定以 $5$ 或 $0$ 结尾，也就是我们选择的一段数字，只要保证结尾为 $0$ 或 $5$，前面数字是什么是无关答案，可以任选的。、<br>那么我们就先考虑在 <code>a</code> 这个串中如何统计答案，最后将 $k$ 个串平起来的答案直接乘上去就好了。</p>
+    <content><![CDATA[<h1 id="题面"><a href="#题面" class="headerlink" title="题面"></a><a href="https://codeforces.com/problemset/problem/327/C">题面</a></h1><p>首先可以想到 $5$ 的倍数一定以 $5$ 或 $0$ 结尾，也就是我们选择的一段数字，只要保证结尾为 $0$ 或 $5$，前面数字是什么是无关答案，可以任选的。</p>
+<p>那么我们就先考虑在 <code>a</code> 这个串中如何统计答案，最后将 $k$ 个串平起来的答案直接乘上去就好了。</p>
 <p>对于字符串 <code>a</code>，记最高位为第 $0$ 位，最低位为第 $n-1$ 位，根据乘法及加法原理，有：</p>
 <script type="math/tex; mode=display">
-ans_a = 2^0 \times (a_0 == 5 || a_0 == 0) + 2^1 \times (a_1 == 5 || a_1 == 0) + \cdots + 2^{n-1} \times (a_{n-1} == 5 || a_{n-1} == 0)</script><p>那么我们对于 $k$ 个 <code>a</code>，有这样的方案：</p>
+ans_a = 2^0 \times (a_0 == 5 || a_0 == 0) +</script><script type="math/tex; mode=display">
+2^1 \times (a_1 == 5 || a_1 == 0) + \cdots + 2^{n-1} \times (a_{n-1} == 5 || a_{n-1} == 0)</script><p>那么我们对于 $k$ 个 <code>a</code>，有这样的方案：</p>
 <script type="math/tex; mode=display">
-ans_1 = ans_a \ \times\ (2^n)^0 \\
-ans_2 = ans_a \ \times\ (2^n)^1 \\ 
-ans_3 = ans_a \ \times\ (2^n)^2 \\
-\cdots \\
+ans_1 = ans_a \ \times\ (2^n)^0</script><script type="math/tex; mode=display">
+ans_2 = ans_a \ \times\ (2^n)^1</script><script type="math/tex; mode=display">
+ans_3 = ans_a \ \times\ (2^n)^2</script><script type="math/tex; mode=display">
+\cdots</script><script type="math/tex; mode=display">
 ans_k = ans_a \ \times\ (2^n)^{k-1}</script><p>对答案求一下和，发现其实就是等比数列求和，得到以下结果：</p>
 <script type="math/tex; mode=display">
 ANS = ans_1 \ \times\ \frac{2^{nk}-1}{2^n-1}</script><p>其中 $n$ 为字符串长度。<br>于是这道题只剩下轻松愉快的快速幂和费马小定理求逆元了。</p>
