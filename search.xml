@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>[CodeForces][数学][组合][快速幂] CF327C Magic Five</title>
-    <url>/2020/10/04/CodeForces-%E6%95%B0%E5%AD%A6-%E7%BB%84%E5%90%88-%E5%BF%AB%E9%80%9F%E5%B9%82-CF327C-Magic-Five/</url>
+    <url>/2020/10/04/CF327C/</url>
     <content><![CDATA[<h1 id="题面"><a class="markdownIt-Anchor" href="#题面"></a> <a href="https://codeforces.com/problemset/problem/327/C">题面</a></h1>
 <p>首先可以想到 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> 的倍数一定以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> 或 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 结尾，也就是我们选择的一段数字，只要保证结尾为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 或 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span>，前面数字是什么是无关答案，可以任选的。</p>
 <p>那么我们就先考虑在 <code>a</code> 这个串中如何统计答案，最后将 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> 个串平起来的答案直接乘上去就好了。</p>
@@ -75,6 +75,203 @@ ans_k = ans_a \ \times\ (2^n)^{k-1} \\
         <tag>数学</tag>
         <tag>组合计数</tag>
         <tag>CodeForces</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[模板][数据结构] Link Cut Tree</title>
+    <url>/2020/10/05/Link-Cut-Tree/</url>
+    <content><![CDATA[<p>先粘个板子，晚上补解释</p>
+<pre><code class="hljs C++"><span class="hljs-meta"># <span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;cstdio&gt;</span></span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> MAXN 100005</span>
+
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">stack</span>&#123;</span>
+	<span class="hljs-keyword">int</span> stk[MAXN], topS = <span class="hljs-number">0</span>;
+	<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">push</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>&#123;
+		stk[++topS] = x;
+	&#125;
+	<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">pop</span><span class="hljs-params">()</span></span>&#123;
+		<span class="hljs-keyword">if</span>(topS)&#123;
+			topS--;
+		&#125;
+	&#125;
+	<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">top</span><span class="hljs-params">()</span></span>&#123;
+		<span class="hljs-keyword">return</span> stk[topS];
+	&#125;
+	<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">clear</span><span class="hljs-params">()</span></span>&#123;
+		topS = <span class="hljs-number">0</span>;
+	&#125;
+	<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">size</span><span class="hljs-params">()</span></span>&#123;
+		<span class="hljs-keyword">return</span> topS;
+	&#125;
+&#125;S;
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">LCT</span>&#123;</span> 
+	<span class="hljs-keyword">int</span> fa, son[<span class="hljs-number">2</span>];
+	<span class="hljs-keyword">int</span> val, sum;
+	<span class="hljs-keyword">bool</span> tagR;
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> fa(x) tr[x].fa</span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> lSon(x) tr[x].son[0]</span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> rSon(x) tr[x].son[1]</span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> val(x) tr[x].val</span>
+<span class="hljs-meta"># <span class="hljs-meta-keyword">define</span> sum(x) tr[x].sum</span>
+&#125;tr[MAXN];
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Rotate</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>; <span class="hljs-comment">// 注意这个 Rotate 和普通 Splay 的 Rotate 不一样</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Splay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>; <span class="hljs-comment">// 注意这个 Splay 和普通 Splay 的 Splay 不一样</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">PushUp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">PushDown</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Reverse</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">IsRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Access</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">MakeRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FindRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Split</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Link</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Cut</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>;
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;
+	<span class="hljs-keyword">int</span> n, m;
+
+	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d%d&quot;</span>, &amp;n, &amp;m);
+
+	<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)&#123;
+		<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;val(i));
+	&#125;
+
+	<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> opt, x, y; m; m--)&#123;
+		<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d%d%d&quot;</span>, &amp;opt, &amp;x, &amp;y);
+		<span class="hljs-keyword">if</span>(opt == <span class="hljs-number">0</span>)&#123;
+			Split(x, y);
+			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d\n&quot;</span>, sum(y));
+		&#125;
+		<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(opt == <span class="hljs-number">1</span>)&#123;
+			Link(x, y);
+		&#125;
+		<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(opt == <span class="hljs-number">2</span>)&#123;
+			Cut(x, y);
+		&#125;
+		<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(opt == <span class="hljs-number">3</span>)&#123;
+			Splay(x), val(x) = y;
+		&#125;
+	&#125;
+
+	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Cut</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>&#123;
+	MakeRoot(x);
+	<span class="hljs-keyword">if</span>(FindRoot(y) == x &amp;&amp; fa(y) == x &amp;&amp; (!lSon(y)))&#123;
+		fa(y) = rSon(x) = <span class="hljs-number">0</span>;
+		PushUp(x);
+	&#125;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Link</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>&#123;
+	MakeRoot(x);
+	<span class="hljs-keyword">if</span>(FindRoot(y) != x)&#123;
+		fa(x) = y;
+	&#125;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Split</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>&#123;
+	MakeRoot(x); Access(y); Splay(y);
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FindRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+	Access(now); Splay(now);
+	<span class="hljs-keyword">while</span>(lSon(now))&#123;
+		PushDown(now);
+		now = lSon(now);
+	&#125;
+	Splay(now);
+	<span class="hljs-keyword">return</span> now;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">MakeRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+	Access(now); Splay(now);
+	Reverse(now); tr[now].tagR ^= <span class="hljs-number">1</span>;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Access</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>&#123;
+	<span class="hljs-keyword">int</span> y = <span class="hljs-number">0</span>;
+	<span class="hljs-keyword">while</span>(x)&#123;
+		Splay(x);
+		rSon(x) = y;
+		PushUp(x);
+		y = x, x = fa(x);
+	&#125;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">IsRoot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123; <span class="hljs-comment">// 利用 LCT 认父不认子的性质</span>
+	<span class="hljs-keyword">return</span> !((lSon(fa(now)) == now) || (rSon(fa(now)) == now));
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Reverse</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+	<span class="hljs-built_in">std</span>::swap(lSon(now), rSon(now));
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">PushDown</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+	<span class="hljs-keyword">if</span>(tr[now].tagR)&#123;
+		<span class="hljs-keyword">if</span>(lSon(now))&#123;
+			Reverse(lSon(now));
+			tr[lSon(now)].tagR ^= <span class="hljs-number">1</span>;
+		&#125;
+		<span class="hljs-keyword">if</span>(rSon(now))&#123;
+			Reverse(rSon(now));
+			tr[rSon(now)].tagR ^= <span class="hljs-number">1</span>;
+		&#125;
+		tr[now].tagR = <span class="hljs-number">0</span>;
+	&#125;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">PushUp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+	sum(now) = sum(lSon(now)) ^ sum(rSon(now)) ^ val(now);
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Splay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>&#123; <span class="hljs-comment">// 则直接 Splay 到树根</span>
+	<span class="hljs-keyword">int</span> y = x, z;
+	S.clear(); S.push(y);
+	<span class="hljs-keyword">while</span>(!IsRoot(y))&#123;
+		y = fa(y);
+		S.push(y);
+	&#125;
+	<span class="hljs-keyword">while</span>(S.size())&#123;
+		PushDown(S.top());
+		S.pop();
+	&#125;
+	<span class="hljs-keyword">while</span>(!IsRoot(x))&#123;
+		y = fa(x); z = fa(y);
+		<span class="hljs-keyword">if</span>(!IsRoot(y))&#123;
+			((lSon(y) == x) ^ (lSon(z) == y)) ? Rotate(x) : Rotate(y);
+		&#125;
+		Rotate(x);
+		<span class="hljs-comment">// 这两句核心代码还是一样的</span>
+	&#125;
+	PushUp(x);
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Rotate</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span></span>&#123;
+	<span class="hljs-keyword">int</span> y = fa(x), z = fa(y); <span class="hljs-keyword">bool</span> k = (rSon(y) == x); <span class="hljs-keyword">int</span> w = tr[x].son[k^<span class="hljs-number">1</span>];
+	<span class="hljs-keyword">if</span>(!IsRoot(y))&#123; <span class="hljs-comment">// 这里是和普通 Splay 不同的</span>
+		tr[z].son[rSon(z) == y] = x;
+	&#125;
+	tr[y].son[k] = w, tr[x].son[k^<span class="hljs-number">1</span>] = y;
+	<span class="hljs-keyword">if</span>(w)&#123;
+		fa(w) = y;
+	&#125;
+	fa(y) = x, fa(x) = z;
+
+	PushUp(y);
+&#125;</code></pre>
+]]></content>
+      <categories>
+        <category>模板</category>
+        <category>数据结构</category>
+        <category>Link Cut Tree</category>
+      </categories>
+      <tags>
+        <tag>Link Cut Tree</tag>
+        <tag>数据结构</tag>
       </tags>
   </entry>
 </search>
