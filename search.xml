@@ -1413,7 +1413,7 @@ pii pls[MAXN], mns[MAXN];
 <p>不存在这样的点</p>
 <p>这时候，这个连通块会变成一个<strong>环</strong>，或一个<strong>基环树</strong>，如下图所示：</p>
 <img src="https://i.loli.net/2020/10/24/MWODvigJenUIlor.png" alt="CF859E_2.png" style="zoom:67%;" />
-<p>此时，对于一个环，只有<strong>全部移动</strong>和<strong>全部不动</strong>两种情况，而对于一个基环树，无论环上如何运动，每一条链都是不可动的，故这两种情况的方案均为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>。</p>
+<p>此时，对于一个环，只有<strong>全部移动</strong>和<strong>全部不动</strong>两种情况，而对于一个基环树，无论环上如何运动，每一棵树上的其他点都是不可动的，故这两种情况的方案均为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>。</p>
 </li>
 </ol>
 <p>最后，由于题目中可能有自环，而存在自环的连通块只存在<strong>保持原位置不变</strong>一种合法情况<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="相当于是一个环大小为 111 的基环树，它的环上两种方案是等价的，故算作一种。
