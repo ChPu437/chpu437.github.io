@@ -314,74 +314,6 @@
       </tags>
   </entry>
   <entry>
-    <title>[模板][树形动归] 基环树</title>
-    <url>/2020/10/23/template/CycleTree/</url>
-    <content><![CDATA[<h1 id="基环树的一般处理方法"><a class="markdownIt-Anchor" href="#基环树的一般处理方法"></a> 基环树的一般处理方法</h1>
-<p>首先我们可以找到基环树上的环，然后采取一些方法破环成链<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="方法实际有多种，但是这里给的例子采用的均为 &quot;断开环上一边并分别以该边两端点 DPDPDP&quot; 的方法，具体因题而异。
-">[1]</span></a></sup>，然后就可以得到一个一般的树或森林，便可以进行一般的处理了。所以，关键的问题还是如何找环。</p>
-<h2 id="找环的方法"><a class="markdownIt-Anchor" href="#找环的方法"></a> 找环的方法</h2>
-<h3 id="有向的基环树"><a class="markdownIt-Anchor" href="#有向的基环树"></a> 有向的基环树</h3>
-<pre><code class="hljs C++"><span class="hljs-function"><span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-title">FindCycle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
-    <span class="hljs-comment">// 找环开始</span>
-	vis[now] = <span class="hljs-literal">true</span>;
-	root = now;
-	<span class="hljs-keyword">while</span>(!vis[fa[root]])&#123;
-		root = fa[root];
-		vis[root] = <span class="hljs-literal">true</span>;
-	&#125;
-    <span class="hljs-comment">// 找环结束</span>
-	DFS(root);
-	<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> tmpAns = <span class="hljs-built_in">std</span>::max(f[root][<span class="hljs-number">0</span>], f[root][<span class="hljs-number">1</span>]);
-	vis[root] = <span class="hljs-literal">true</span>;
-	root = fa[root];
-	DFS(root);
-	<span class="hljs-keyword">return</span> <span class="hljs-built_in">std</span>::max(tmpAns, <span class="hljs-built_in">std</span>::max(f[root][<span class="hljs-number">0</span>], f[root][<span class="hljs-number">1</span>]));
-&#125;</code></pre>
-<hr />
-<h3 id="无向的基环树"><a class="markdownIt-Anchor" href="#无向的基环树"></a> 无向的基环树：</h3>
-<pre><code class="hljs C++"><span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">FindCycle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now, <span class="hljs-keyword">int</span> fa)</span></span>&#123;
-	vis[now] = <span class="hljs-literal">true</span>;
-	<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = hd[now]; i; i = e[i].next)&#123;
-		<span class="hljs-keyword">if</span>(e[i].v == fa)&#123;
-			<span class="hljs-keyword">continue</span>;
-		&#125;
-		<span class="hljs-keyword">if</span>(vis[e[i].v])&#123;
-			rootA = now, rootB = e[i].v;
-			<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
-		&#125;
-		<span class="hljs-keyword">else</span>&#123;
-			<span class="hljs-keyword">if</span>(FindCycle(e[i].v, now))&#123;
-				<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
-			&#125;
-		&#125;
-	&#125;
-	<span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
-&#125;
-</code></pre>
-<hr />
-<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>方法实际有多种，但是这里给的例子采用的均为 &quot;断开环上一边并分别以该边两端点 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">DP</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span>&quot; 的方法，具体因题而异。
-<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
-      <categories>
-        <category>模板</category>
-        <category>图论</category>
-        <category>图论</category>
-        <category>动态规划</category>
-        <category>树形动归</category>
-        <category>树</category>
-        <category>动态规划</category>
-        <category>树形动归</category>
-        <category>树形动归</category>
-        <category>树</category>
-        <category>树形动归</category>
-      </categories>
-      <tags>
-        <tag>图论</tag>
-        <tag>模板</tag>
-        <tag>树形动归</tag>
-        <tag>动态规划</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[模板][图论] 狭义圆方树</title>
     <url>/2020/10/15/template/cactus/</url>
     <content><![CDATA[<h1 id="狭义圆方树"><a class="markdownIt-Anchor" href="#狭义圆方树"></a> 狭义圆方树</h1>
@@ -1553,6 +1485,74 @@ pii pls[MAXN], mns[MAXN];
         <tag>图论</tag>
         <tag>计数</tag>
         <tag>思路</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[模板][树形动归] 基环树</title>
+    <url>/2020/10/23/template/CircleTree/</url>
+    <content><![CDATA[<h1 id="基环树的一般处理方法"><a class="markdownIt-Anchor" href="#基环树的一般处理方法"></a> 基环树的一般处理方法</h1>
+<p>首先我们可以找到基环树上的环，然后采取一些方法破环成链<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="方法实际有多种，但是这里给的例子采用的均为 &quot;断开环上一边并分别以该边两端点 DPDPDP&quot; 的方法，具体因题而异。
+">[1]</span></a></sup>，然后就可以得到一个一般的树或森林，便可以进行一般的处理了。所以，关键的问题还是如何找环。</p>
+<h2 id="找环的方法"><a class="markdownIt-Anchor" href="#找环的方法"></a> 找环的方法</h2>
+<h3 id="有向的基环树"><a class="markdownIt-Anchor" href="#有向的基环树"></a> 有向的基环树</h3>
+<pre><code class="hljs C++"><span class="hljs-function"><span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-title">FindCircle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now)</span></span>&#123;
+    <span class="hljs-comment">// 找环开始</span>
+	vis[now] = <span class="hljs-literal">true</span>;
+	root = now;
+	<span class="hljs-keyword">while</span>(!vis[fa[root]])&#123;
+		root = fa[root];
+		vis[root] = <span class="hljs-literal">true</span>;
+	&#125;
+    <span class="hljs-comment">// 找环结束</span>
+	DFS(root);
+	<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> tmpAns = <span class="hljs-built_in">std</span>::max(f[root][<span class="hljs-number">0</span>], f[root][<span class="hljs-number">1</span>]);
+	vis[root] = <span class="hljs-literal">true</span>;
+	root = fa[root];
+	DFS(root);
+	<span class="hljs-keyword">return</span> <span class="hljs-built_in">std</span>::max(tmpAns, <span class="hljs-built_in">std</span>::max(f[root][<span class="hljs-number">0</span>], f[root][<span class="hljs-number">1</span>]));
+&#125;</code></pre>
+<hr />
+<h3 id="无向的基环树"><a class="markdownIt-Anchor" href="#无向的基环树"></a> 无向的基环树：</h3>
+<pre><code class="hljs C++"><span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">FindCircle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> now, <span class="hljs-keyword">int</span> fa)</span></span>&#123;
+	vis[now] = <span class="hljs-literal">true</span>;
+	<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = hd[now]; i; i = e[i].next)&#123;
+		<span class="hljs-keyword">if</span>(e[i].v == fa)&#123;
+			<span class="hljs-keyword">continue</span>;
+		&#125;
+		<span class="hljs-keyword">if</span>(vis[e[i].v])&#123;
+			rootA = now, rootB = e[i].v;
+			<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+		&#125;
+		<span class="hljs-keyword">else</span>&#123;
+			<span class="hljs-keyword">if</span>(FindCircle(e[i].v, now))&#123;
+				<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+			&#125;
+		&#125;
+	&#125;
+	<span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+&#125;
+</code></pre>
+<hr />
+<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>方法实际有多种，但是这里给的例子采用的均为 &quot;断开环上一边并分别以该边两端点 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">DP</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span>&quot; 的方法，具体因题而异。
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+      <categories>
+        <category>模板</category>
+        <category>图论</category>
+        <category>图论</category>
+        <category>动态规划</category>
+        <category>树形动归</category>
+        <category>树</category>
+        <category>动态规划</category>
+        <category>树形动归</category>
+        <category>树形动归</category>
+        <category>树</category>
+        <category>树形动归</category>
+      </categories>
+      <tags>
+        <tag>图论</tag>
+        <tag>模板</tag>
+        <tag>树形动归</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
 </search>
