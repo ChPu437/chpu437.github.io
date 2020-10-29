@@ -780,7 +780,7 @@
 	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 &#125;</code></pre>
 <hr />
-<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>关于长链剖分， 可以查看<a href="https://blog.bill.moe/long-chain-subdivision-notes/">这位神仙的博客</a>或是<a href="https://chpu437.gitee.io/2020/10/20/TCSeg-DP/">我的这篇博客</a><s>虽然我的博客贼水就是了</s>
+<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>关于长链剖分， 可以查看<a href="https://blog.bill.moe/long-chain-subdivision-notes/">这位神仙的博客</a>或是<a href="https://chpu437.gitee.io/2020/10/20/template/TCSeg/">我的这篇博客</a><s>虽然我的博客贼水就是了</s>
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
       <categories>
         <category>图论</category>
