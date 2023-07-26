@@ -71,6 +71,6 @@
 
 每学年对学生进行考核，对学习成绩明显下滑、出现课程（首修）不及格的学生给予预警。对主动提出退出拔尖班培养，以及出现考试作弊、学术不端、两门及以上课程（首修）不及格等情况的学生，经拔尖班专家组认定不适合继续于拔尖班进行培养的，将退出至计算机科学与技术专业普通班继续培养。
 
-[2022级拔尖班活动介绍（名字待定）](https://c8vm6xp2g0.feishu.cn/docx/Wh1udkxmfoCLVExQqRWczawOnLb)
+[2022级拔尖班活动介绍（名字待定）](/event.html)
 
-[常见问题（名字待定）](https://c8vm6xp2g0.feishu.cn/docx/GPzydPCBfoLRGrxVy2mcBr5Fncg)
+[常见问题（名字待定）](/faq.html)
