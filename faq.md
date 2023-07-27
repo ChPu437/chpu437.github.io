@@ -3,7 +3,7 @@
 > 这是一个拔尖班网站的初步展示版本。各位预览本页面及
 > 相关页面的老师有任何修改意见，欢迎下面可编辑在线文档进行修改或者批注
 >
-> https://c8vm6xp2g0.feishu.cn/docx/GPzydPCBfoLRGrxVy2mcBr5Fncg
+> [https://c8vm6xp2g0.feishu.cn/docx/GPzydPCBfoLRGrxVy2mcBr5Fncg](https://c8vm6xp2g0.feishu.cn/docx/GPzydPCBfoLRGrxVy2mcBr5Fncg)
 
 2023年最新公告：[东南大学2023级本科生二次选拔公告](https://jwc.seu.edu.cn/2023/0627/c23285a449729/page.htm)
 
