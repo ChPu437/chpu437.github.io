@@ -94,5 +94,4 @@
 
 更多问题，请加入QQ群交流咨询。
 
-![](media/image1.jpeg){width="2.3958333333333335in"
-height="4.041666666666667in"}
+<img alt="群二维码" src="/img/faq/chat.jpeg" style="width: auto; max-width: 25em">
