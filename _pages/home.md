@@ -1,82 +1,22 @@
 ---
-title: "Home | SEU NetSI"
+title: "拔尖基地"
 layout: homelay
-excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
+excerpt: "拔尖基地"
 sitemap: false
 permalink: /
 ---
 
-<div class="page-container">
-<div class="page-header">
-  <h3>NetSI <small>Networking and Swarm Intelligence Research Group</small></h3>
-</div>
+### 计算机科学拔尖学生培养基地
 
-<div class="justify-text">
-The Networking and Swarm Intelligence (NetSI) Research Group is part of the [Jiangsu Provincial Key Laboratory of Networking and Information Security](http://jssec.seu.edu.cn), 
-at the [Southeast University](https://www.seu.edu.cn/). 
-The group members are from 
-[School of Computer Science and Engineering](https://cse.seu.edu.cn), 
-[College of Software Engineering](https://cose.seu.edu.cn), 
-[School of Cyber Science and Engineering](https://cyber.seu.edu.cn), 
-[SEU-Monash Joint Graduate School](https://smjgs.seu.edu.cn).
+东南大学计算机科学拔尖学生培养基地，依托东南大学计算机科学与技术国家级一流本科专业建设点、“双一流”国家重点学科进行建设。基地于2021年11月入选教育部基础学科拔尖学生培养计划2.0基地名单，目标是建成在国内有重要影响力、在国际上有较高知名度的计算机拔尖人才培养基地，培养一批有潜力的未来科学家和计算机科技领军人才。基地采取导师制、书院制、完全学分制，以及小班化、个性化、国际化、卓越化、本研一体化的“三制五化”人才培养模式，每年从全校理工科新生中遴选20人左右的优秀学生组成计算机科学拔尖班，进行特色化重点培养，以充分激发学生的创新潜能，并发挥拔尖学生的示范和带动效应。
 
-NetSI group conducts research in the area of <b>Internet of Things and Swarm Intelligence</b>.
-More specially, the focus is on the wireless networking for a swarm of moving things and study how to coordinate their collaboration.
-NetSI group research goal is to provide theoretically sound analysis as well as build practically working systems.
-</div>
+![拔尖基地徽标](images/homepic/09J.png){: style="display:block; margin:auto; width:220px;" }
 
-<div markdown="0" id="carousel" class="carousel slide home-carousel" data-ride="carousel" data-interval="4000" data-pause="hover" >
-  <!-- Menu -->
-  <ol class="carousel-indicators">
-      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-      <li data-target="#carousel" data-slide-to="3"></li>
-      <li data-target="#carousel" data-slide-to="4"></li>
-  </ol>
-  <!-- Items -->
-  <div class="carousel-inner" markdown="0">
-      <div class="item active">
-          <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/homepic/slider/1-devSwarm.png" alt="Slide 0" />
-      </div>
-      <div class="item">
-          <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/homepic/slider/2-sourceTracking.png" alt="Slide 1" />
-      </div>
-      <div class="item">
-          <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/homepic/slider/3-uwbRanging.png" alt="Slide 2" />
-      </div>
-      <div class="item">
-          <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/homepic/slider/4-speedScheduling.png" alt="Slide 3" />
-      </div>
-      <div class="item">
-          <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/homepic/slider/5-lookingB4.png" alt="Slide 4" />
-      </div>
-  </div>
-    
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+徽标中“SEU”字样为东南大学的英文缩写，而大礼堂为东南大学的标志性建筑。大礼堂的窗户化作“09J”字样，为基地的专业号；大礼堂下方有“2021”字样，代表着基地的建立时间。外围的装饰环形成一个光环，同从大礼堂下延伸出的道路构成“CS”字样，为“计算机科学”的英文缩写。徽标整体取同学们从东南大学计算机科学拔尖学生培养基地出发，走上计算机科学的探索之路，路上或有曲折，但前途一片光明之意。
 
+### 东南大学
 
+东南大学坐落于六朝古都南京，是享誉海内外的著名高等学府。学校是国家教育部直属并与江苏省共建的全国重点大学，是国家“985工程”和“211工程”重点建设大学之一。2017年，东南大学入选世界一流大学建设A类高校名单。
 
-<div class="page-header">
-  <h3>SEU <small>Southeast University</small></h3>
-</div>
-<div class="justify-text">
-Southeast University (SEU), located in <b>Nanjing</b>, <b>China</b>, the ancient capital city of six dynasties, is a prestigious institution of higher learning renowned both at home and abroad. As one of the national key universities directly subordinate to the Ministry of Education of China and jointly established with Jiangsu Province, it is also listed as one of the universities involved in National <em>"985 Project"</em>, <em>"211 Project"</em>.
+东南大学是一所历史悠久、底蕴深厚的大学。学校创建于1902年的三江师范学堂，后历经两江师范学堂、南京高等师范学校、国立东南大学、国立中央大学等重要发展时期。1952年全国高校院系调整，学校文理等科迁出，以原国立中央大学工学院为主体，先后并入复旦大学、交通大学、浙江大学、金陵大学等校的有关系科，在国立中央大学本部原址建立了南京工学院。1988年5月，学校复更名为东南大学。2000年4月，原东南大学、南京铁道医学院、南京交通高等专科学校合并，南京地质学校并入，组建新的东南大学。在120余年的办学历程中，东南大学始终心怀天下、心系祖国，为科学进步、民族复兴而自强不息、追求卓越，逐步形成了“严谨、求实、团结、奋进”的优良校风和“以科学名世、以人才报国”的办学理念，铸就了“止于至善”的校训精神。
 
-In 2017, SEU was ranked on the list of constructing <em>"Class A First-rate World Universities"</em>, and the discipline of "Computer Science and Technology" was successfully selected as the national <em>"Double First-class Construction Discipline"</em>.
-
-<blockquote>
-<p style="font-size: 16px;">
-Learn more on Wikipedia: <a href="https://en.wikipedia.org/wiki/Southeast_University" target="_blank">Southeast University</a>, <a href="https://en.wikipedia.org/wiki/Nanjing" target="_blank">Nanjing</a>. <br>
-<strong>We are looking for passionate new M.Sc. students and B.Sc. students to <a href="{{ site.url }}{{ site.baseurl }}/admission">join us</a>!</strong>
-</p>
-</blockquote>
-</div>
