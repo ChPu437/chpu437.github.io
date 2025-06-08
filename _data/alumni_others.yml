@@ -1,0 +1,55 @@
+- name: Weijun Bing
+  id: bingweijun
+  chinese: 邴伟峻
+  attr: Excellent bachelor students, Graduated in 2022, Research developer at <a href='https://www.wanmei.com/' target='_blank'>Perfect World</a>.
+  biography: Finished the graduation project, "微型室内无人机集群智能飞行控制算法设计与实现."
+- name: Haitao Ren
+  id: renhaitao
+  chinese: 任海涛
+  attr: Excellent bachelor students, Graduated in 2022, Ready for postgraduate.
+  biography: Finished the graduation project, "基于激光测距的微型室内无人机自主导航系统的设计与实现."
+#- name: Wenyu Wang
+#  id: wangwenyu
+#  chinese: 王文虞
+#  attr: Excellent bachelor students, Graduated in 2021, Ready for postgraduate.
+#  biography: Finished the graduation project, "基于超宽频无线通信技术的无人系统自组网络路由协议的设计与实现."
+#- name: Yuying Cheng
+#  id: chengyuying2
+#  chinese: 程玉莹
+#  attr: Excellent bachelor Students, Graduated in 2021, M.Sc. in our group.
+#  biography: Finished the graduation project, "基于微型室内无人机的WiFi信号源搜寻与追踪算法设计与实现", and got 'Southeast University Excellent Undergraduate Graduation Project'.
+#- name: Yuming Gao
+#  id: gaoyuming2
+#  chinese: 高钰铭
+#  attr: Excellent bachelor Students, Graduated in 2021, M.Sc. in our group.
+#  biography: Finished the graduation project, "基于超宽频无线通信技术的无人系统自主协作算法设计与实现."
+- name: Xiuyang Li
+  id: lixiuyang
+  chinese: 李修阳
+  attr: Excellent co-guided master students, Graduated in 2020, Research developer at <a href='https://www.bytedance.com/' target='_blank'>ByteDance</a>.
+  biography: Finished the graduation project, "面向无线传感网数据采集的无人机能耗优化机制研究与实现."
+- name: Jiashuo Li
+  chinese: 李佳硕
+  id: lijiashuo
+  attr: Excellent bachelor students, Graduated in 2020, M.Sc. at <a href='https://www.ku.dk/' target='_blank'>University of Copenhagen</a>, Denmark.
+  biography: Took part in the paper "'Looking before Crossing:' An Optimal Algorithm to Minimize UAV Energy by Speed Scheduling with a Practical Flight Energy Model", which published on INFOCOM2020, an A-class conference in CCF .
+- name: Yulin He
+  chinese: 何雨霖
+  id: heyulin
+  attr: Excellent bachelor students, Graduated in 2020, M.Sc. at <a href='https://www.nyu.edu/' target='_blank'>New York University</a>, USA.
+  biography: Finished the graduation project, "基于距离的微型无人机集群室内位置感知系统."
+- name: Wenjie Zhu
+  chinese: 朱文捷
+  id: zhuwenjie
+  attr: Excellent co-guided master students, Graduated in 2019, Research developer at <a href='https://www.huawei.com/' target='_blank'>Huawei</a>.
+  biography: Finished the graduation project, "基于动态组网和计算卸载的多无人机协作平台的设计与实现."
+- name: Mei Wu
+  chinese: 吴媚
+  id: wumei
+  attr: Excellent co-guided master students, Graduated in 2019, Research developer at <a href='http://js.ifeng.com/special/fangtian/' target='_blank'>Fangtian</a>.
+  biography: Finished the graduation project, "工业物联网环境下面向能耗优化的无人机飞行规划系统设计与实现."
+- name: Tingwei Shen
+  chinese: 沈廷威
+  id: shentingwei
+  attr: Excellent bachelor students, Graduated in 2019, M.Sc. at <a href='https://english.pku.edu.cn/' target='_blank'>Peking University</a>, China.
+  biography: Finished the graduation project, "微型室内无人机集群智能系统的设计与实现."

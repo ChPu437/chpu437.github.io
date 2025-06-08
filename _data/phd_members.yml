@@ -1,0 +1,23 @@
+#- name:
+#  photo: 
+#  info:
+#  email:
+#  link: 
+#  education:
+
+- name: Jianping Huang
+  chinese: 黄剑萍
+  id: huangjianping_phd
+  photo: huangjianping.jpg
+  info: Ph.D Candidate, Started Mar. 2024
+  email: jphuang@seu.edu.cn
+  link: https://github.com/hjp1997
+  education:
+    - "<b>2024.03 ~ Now:</b> Ph.D Candidate, <a href='https://cse.seu.edu.cn/main.htm' target='_blank'>School of Computer Science and Engineering</a>, <a href='https://www.seu.edu.cn/' target='_blank'>Southeast University</a>, China"
+    - "<b>2019.09 ~ 2022.06:</b> M.Sc, <a href='https://cse.seu.edu.cn/main.htm/' target='_blank'>School of Computer Science and Engineering</a>, <a href='https://www.seu.edu.cn/' target='_blank'>Southeast University</a>, China"
+    - "<b>2015.09 ~ 2019.06:</b> B.Sc, <a href='https://cs.njust.edu.cn/' target='_blank'>School of Computer Science and Engineering</a>, <a href='https://www.njust.edu.cn/' target='_blank'>Nanjing University of Science and Technology</a>, China"
+  interest:
+    - "<b>Internet of Things</b>"
+    - "<b>Algorithm Design</b>"
+  correspondence:
+    - "<b>Github:</b> <a href='https://github.com/hjp1997' target='_blank'>https://github.com/hjp1997</a>"

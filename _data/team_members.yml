@@ -1,0 +1,22 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  link: 
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+
+- name: Feng Shan
+  chinese: 单冯
+  id: shanfeng
+  photo: shanfeng.jpg
+  info: Associate Professor
+  email: shanfeng@seu.edu.cn
+  link: https://fengshan.seu-netsi.net
+  education: 
+    - Ph.D, Southeast University, China
+  office: "223, Computer Building, Jiulonghu Campus, SEU"
+  tel: +86-25-52091024
+  biography: Dr. Feng Shan is an Associate Professor at School of Computer Science and Engineering, Southeast University, Nanjing, China. He received the Ph.D. degree in Computer Science from Southeast University in 2015, supervised by Professor Junzhou Luo. He was a Visiting Scholar at the School of Computing and Engineering, University of Missouri-Kansas City, Kansas City, MO, USA, from 2010 to 2012. His research interests are in the areas of wireless communication, algorithm design and analysis.

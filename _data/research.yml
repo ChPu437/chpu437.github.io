@@ -1,0 +1,55 @@
+
+- topic: "Autonomous navigation for Nano/Micro unmanned aerial vehicles"
+  id: autofly
+  image: total_frame.jpg
+  color: primary
+  introduction: Nano unmanned aerial vehicles (NAVs) and Micro unmanned aerial vehicles (MAVs) have been increasingly used for mapping due to their advantages in weight and size, such as search, rescue and reconnaissance in confined areas. However, because the resources carried by NAVs and MAVs are extremely limited, it is a challenge to achieve efficient autonomous navigation in 3D space. To address this challenge, we proposes a new autonomous navigation model and system architecture with heterogeneous NAVs and MAVs. 
+
+- topic: "Ad hoc networking for robotic swarms"
+  id: adhocnetworkingrs
+  image: swarmnetworking.png
+  color: primary
+  introduction: Nowadays, aerial and ground robots, wearable and portable devices are becoming smaller, lighter, cheaper, and thus popular. It is now possible to utilize tens and thousands of them to form a swarm to complete complicated cooperative tasks, such as searching, rescuing, and mapping. Low lantency ad hoc networking is critical for such applications to ensure wireless communication within such dense and dynamic swarms. This project proposes specifically designed ad hoc routing protocols for dense and dynamic swarms based on the existing optimized link state routing protocol.
+
+- topic: "Ultra-wideband swarm ranging and positioning"
+  id: uwbswarmrl
+  image: uwbpositioning.png
+  color: primary
+  introduction: Ultra-wideband (UWB) wireless technology is becoming widely adopted in everyday life, especially after the IEEE 802.15.4z standard was published in 2020. Nowadays, the newest iPhone, and AirTags from Apple, the newest Galaxy, and SmartTag from Samsung, are all supporting UWB. In the future, not only mobile devices, but also ground and aerial robots will be equipped UWB capability. This project improves the ranging protocol and the indoor positioning for dynamic and dense swarm of devices and robots.
+
+- topic: "Collision avoidance and path planning for UAV swarms"
+  id: uavpathplan
+  image: uavpathplan.png
+  color: primary
+  introduction: Collision avoidance is one of the essential needs of dynamic and dense robotic and device swarms. Moreover, Unmanned aerial vehicles (UAVs) are being widely exploited for various applications, e.g., traverse to collect data from ground sensors, patrol to monitor key facilities, move to aid mobile edge computing. We study the UAV path planning problem aiming at minimizing flight energy consumption, which is critical due to its limited onboard storage capacity. A practical speed-related energy consumption model is adopted, that is, the power consumption first decreases and then increases as speed increases.
+
+- topic: "UAV-aided edge computing"
+  id: uavedgecomputing
+  image: uavedgecomputing.png
+  color: primary
+  introduction: Millions of Internet of Thing (IoT) devices have been widely deployed to support applications such as smart city, industrial Internet, and smart transportation. These IoT devices periodically upload their collected data and reconfigure themselves to adapt to the dynamic environment. Both operations are resource consuming for low-end IoT devices. An edge computing enabled unmanned aerial vehicle (UAV) is proposed to fly over to collect data and complete reconfiguration computing tasks from IoT devices. 
+
+- topic: "Source seeking and tracking"
+  id: sourcest
+  image: sourcest.png
+  color: primary
+  introduction: There are various type of sources that needs to be sought or tracked, such as wireless radio sources, thermal source, nuclear radiation source, and gas leakage source. Unmanned aerial vehicles (UAVs) fly quickly and freely in the sky, so they are suitable for source seeking and tracking, especially in a time critical scenario. However, the UAV can only sense the source strenght at its current location, how to design a moving strategy such that the source is found in the minimum steps is very challenging. This project design theoretically sound solutions for this research goal and build practically working systems.
+
+- topic: "Swarm collaboration algorithms and applications"
+  id: indoorswarm
+  image: indoorswarm.jpg
+  color: primary
+  introduction: How to coordinate the collaboration for a swarm of moving things for a specific application is a challenging topic. We have made a few attempts. For example, three Crazyflie form a regular triangle with only distance information, and stage preformance.
+
+- topic: "Networking for energy harvesting systems"
+  id: harvestingnet
+  image: wirelesscharging.jpg
+  color: primary
+  introduction: Energy harvesting is a promising technique to address the energy hunger problem for thousands of wireless devices. In Radio Frequency (RF) energy harvesting systems, a wireless device first harvests energy and then transmits data with this energy, hence the 'harvest-then-transmit' (HTT) principle is widely adopted. We must carefully design the HTT schedule, i.e., schedule the timing between harvesting and transmission, and decide the data transmission power such that the throughput can be maximized or the delay can be minimized.
+
+- topic: "「Older research」Energy efficient wireless networking"
+  id: eewirelessnet
+  image: eewirelessnet.jpg
+  color: warning
+  introduction: More and more Internet of Things (IoT) wireless devices have been providing ubiquitous services over the recent years. Since most of these devices are powered by batteries, a fundamental trade-off to be addressed is the depleted energy and the achieved data throughput in wireless data transmission. By exploiting the rate-adaptive capacities of wireless devices, we design rate-adaptive transmission policies to maximize the amount of transmitted data bits under the energy constraints of devices with deadline constraints.
+

@@ -1,0 +1,180 @@
+ourgroup:
+  - id: 2024_11_02_Autumn_Outing
+    image: 2024_11_02_Autumn_Outing2.jpg
+    intro: "Autumn Outing 2024"
+    date: "2024-11-02"
+  - id: 2024_11_02_Autumn_Outing
+    image: 2024_11_02_Autumn_Outing1.jpg
+    intro: "Autumn Outing 2024"
+    date: "2024-11-02"
+  - id: 2024_06_18_Graduation_Memory
+    image: 2024_06_18_Graduation1.jpg
+    intro: "Graduation Memory 2024"
+    date: "2024-06-18"  
+  - id: 2023_MidAutumn_Festival
+    image: 2023_MidAutumn_Festival.jpg
+    intro: "2023 Mid Autumn Festival dinner"
+    date: "2023-09-27"  
+  - id: 2023_06_22_Dragon_Boat_Festival_Gathering
+    image: 2023_06_22_Dragon_Boat_Festival_Gathering.jpeg
+    intro: "Dragon Boat Festival Gathering 2023"
+    date: "2023-06-22"
+  - id: 2023_06_06_Graduation_Memory
+    image: 2023_06_06_Graduation1.jpg
+    intro: "Graduation Memory 2023"
+    date: "2023-06-06"
+  - id: 2022_05_10_BMW
+    image: 2023_05_10_BMW.jpg
+    intro: "BMW Group visit our lab"
+    date: "2023-05-10"
+  - id: 2022_02_24_MOVIE
+    image: 2023_02_24_MOVIE.jpg
+    intro: "2023 new term movie after lunch"
+    date: "2023-02-24"
+  - id: 2022_09_25_JSCC
+    image: 2022_09_26_JSCC.jpg
+    intro: "JSCC 2022 in Nanjing, China"
+    date: "2022-09-25"
+  - id: 2022_09_09_MidAutumnFestival_1
+    image: 2022_09_09_MidAutumn_Festival.jpg
+    intro: "2022 Mid Autumn Festival dinner"
+    date: "2022-09-09"
+  - id: 2022_06_10_seu_1
+    image: 2022_06_10_seu_1.jpg
+    intro: "Graduation memory 2022"
+    date: "2022-06-10"
+  - id: 2022_06_10_seu_1
+    image: 2022_06_10_seu_2.jpg
+    intro: "Graduation memory 2022"
+    date: "2022-06-10"
+  - id: 2022_06_10_party_1
+    image: 2022_06_10_party_1.jpg
+    intro: "Graduation party 2022"
+    date: "2022-06-10"
+  - id: 2022_06_10_party_2
+    image: 2022_06_10_party_2.jpg
+    intro: "Graduation party 2022"
+    date: "2022-06-10"
+  - id: 2022_01_14_caojiawei
+    image: 2022_01_14_caojiawei.jpg
+    intro: "2021 Year-end dinner"
+    date: "2022-01-14"
+  - id: 2021_06_22_seu_1
+    image: 2021_06_22_seu_1.jpg
+    intro: "Graduation memory 2021"
+    date: "2021-06-22"
+  # - id: 2021_06_22_seu_2
+  #   image: 2021_06_22_seu_2.jpg
+  #   intro: "Graduation memory 2021"
+  #   date: "2021-06-22"
+  - id: 2021_06_22_seu_3
+    image: 2021_06_22_seu_3.jpg
+    intro: "Graduation memory 2021"
+    date: "2021-06-22"
+  - id: 2021_06_16_softwarevalley
+    image: 2021_06_16_softwarevalley.jpg
+    intro: "Group meeting at Nanjing Software Valley"
+    date: "2021-06-16"
+  - id: 2021_06_16_ktv
+    image: 2021_06_16_ktv.jpg
+    intro: "Party at karaoke"
+    date: "2021-06-16"
+  - id: 2021_06_03_icra2021_1
+    image: 2021_06_03_icra2021_1.jpg
+    intro: "ICRA 2021 in Xi'an, China"
+    date: "2021-06-03"
+  - id: 2021_06_03_icra2021_2
+    image: 2021_06_03_icra2021_2.jpg
+    intro: "ICRA 2021 in Xi'an, China"
+    date: "2021-06-03"
+  - id: 2021_01_17_haidilao
+    image: 2021_01_17_haidilao.jpg
+    intro: "2020 Year-end dinner"
+    date: "2021-01-17"
+  - id: 2020_10_17_fangshan_2
+    image: 2020_10_17_fangshan_2.jpg
+    intro: "Autumn outing at Fang Mountain"
+    date: "2020-10-17"
+  - id: 2020_10_17_fangshan_1
+    image: 2020_10_17_fangshan_1.jpg
+    intro: "Autumn outing at Fang Mountain"
+    date: "2020-10-17"
+
+seuview:
+  - id: seu_1
+    image: seu_1.jpg
+    intro: "Gate of Sipailou Campus"
+  - id: seu_2
+    image: seu_2.jpg
+    intro: "Famous assembly hall"
+  - id: seu_3
+    image: seu_3.jpg
+    intro: "Assembly hall in winter"
+  - id: seu_4
+    image: seu_4.jpg
+    intro: "Airscape"
+  - id: seu_5
+    image: seu_5.jpg
+    intro: "Gymnasium"
+  - id: seu_6
+    image: seu_6.jpg
+    intro: "Playground"
+  - id: seu_7
+    image: seu_7.jpg
+    intro: "Airscape of the library"
+  - id: seu_8
+    image: seu_8.jpg
+    intro: "Airscape in winter"
+  - id: seu_9
+    image: seu_9.jpg
+    intro: "Landscape lake"
+
+memberlogo:
+  - id: Peking University
+    image: pekinguniversity.png
+    link: https://english.pku.edu.cn/
+    attr: college
+  - id: New York University
+    image: newyorkuniversity.jpg
+    link: https://www.nyu.edu/
+    attr: college
+  - id: University of Copenhagen
+    image: copenhagenuniversity.png
+    link: https://www.ku.dk/
+    attr: college
+  - id: Southeast University
+    image: southeastuniversity.png
+    link: https://www.seu.edu.cn/english/main.htm
+    attr: college
+  - id: Huawei
+    image: huawei.png
+    link: https://www.huawei.com/
+    attr: company
+  - id: ByteDance
+    image: bytedance.png
+    link: https://www.bytedance.com/
+    attr: company
+  - id: Alibaba
+    image: alibaba.png
+    link: https://www.alibabagroup.com/
+    attr: company
+  - id: Meituan
+    image: meituan.png
+    link: https://about.meituan.com/
+    attr: company
+  - id: China Union Pay
+    image: chinaunionpay.png
+    link: http://www.unionpayintl.com/
+    attr: company
+  - id: State Grid
+    image: stategrid.png
+    link: http://js.ifeng.com/special/fangtian/
+    attr: company
+  - id: ZTE
+    image: ZTE.png
+    link: https://www.zte.com.cn/china/about/corporate_information.html
+    attr: company
+  - id: China Electronics Technology Group Corporation
+    image: cetc.png
+    link: https://www.cetc.com.cn/
+    attr: company
