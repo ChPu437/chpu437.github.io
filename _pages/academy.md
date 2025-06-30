@@ -6,7 +6,7 @@ sitemap: false
 permalink: /academy/
 ---
 
-拔尖书院
+## 计算机拔尖书院空间管理 
 
 ### 基地简介
 
