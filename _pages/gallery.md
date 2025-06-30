@@ -1,5 +1,5 @@
 ---
-title: "Gallery | SEU NetSI"
+title: "照片展示"
 layout: piclay
 excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
 permalink: /gallery/

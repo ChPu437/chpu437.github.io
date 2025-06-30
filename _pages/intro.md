@@ -1,5 +1,5 @@
 ---
-title: "基地简介 | 计算机拔尖基地"
+title: "基地简介"
 layout: textlay
 excerpt: "."
 sitemap: false

@@ -1,5 +1,5 @@
 ---
-title: "拔尖基地"
+#title: "拔尖基地" # 这里改为使用`_config.yml`中定义的title
 layout: homelay
 excerpt: "拔尖基地"
 sitemap: false
