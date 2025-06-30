@@ -13,7 +13,7 @@ permalink: /subscribe/
 扫描下方二维码进行预约申请，请提供姓名、学号/工号、联系方式等信息。预约申请提交后，由书院管理人员进行审核。审核通过可以按照预约的时间使用。对于预约成功但无故不使用造成资源浪费的，将记违约。累计违约达到一定次数后，将限制预约权限。
 
 <p style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/academy/1280X1280.PNG" alt="预约二维码" style="width: 200px; height: auto;" />
+  <img src="{{ site.baseurl }}/images/academy/1280X1280.png" alt="预约二维码" style="width: 200px; height: auto;" />
 </p>
 
 ### 预约步骤
@@ -39,5 +39,5 @@ permalink: /subscribe/
 如果你在座位预约的过程中，遇到了问题，可以扫描下方二维码向拔尖书院反馈。
 
 <p style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/academy/Fankui.PNG" alt="预约二维码" style="width: 200px; height: auto;" />
+  <img src="{{ site.baseurl }}/images/academy/Fankui.png" alt="预约二维码" style="width: 200px; height: auto;" />
 </p>
