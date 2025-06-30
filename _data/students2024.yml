@@ -1,0 +1,16 @@
+#- name:
+#  photo: 
+#  info:
+#  email:
+#  link: 
+#  biography:
+
+
+- name: 可能是你！
+  id: placeholder
+  photo: placeholder.jpg
+  grade: 2024级
+  brief_interest: 人工智能、算法设计
+  biography:
+    - "<b>2023.9-2024.8:</b> 东南大学 计算机科学与工程学院 计算机类本科生"
+    - "<b>2024.9-现在:</b> 东南大学 计算机科学与工程学院 计算机科学拔尖基地本科生"

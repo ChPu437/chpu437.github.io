@@ -1,0 +1,15 @@
+#- name:
+#  photo: 
+#  info:
+#  email:
+#  link: 
+#  biography:
+
+
+- name: 蒲京
+  id: pujing
+  photo: pujing.jpg
+  grade: 2022级
+  brief_interest: 系统安全/嵌入式安全
+  biography:
+    - "个人博客: <a href='https://blog.chpu437.com' target='_blank'>https://blog.chpu437.com</a>"
