@@ -1,0 +1,24 @@
+#- name:
+#  photo: 
+#  info:
+#  email:
+#  link: 
+#  biography:
+
+
+- name: 刘玮辰
+  id: liuweichen
+  photo: liuweichen.jpg
+  grade: 2023级
+  brief_interest: 人工智能、算法设计
+  biography:
+    - "<b>2023.9-2024.8:</b> 东南大学 计算机科学与工程学院 计算机类本科生"
+    - "<b>2024.9-现在:</b> 东南大学 计算机科学与工程学院 计算机科学拔尖基地本科生"
+- name: 沈柔希
+  id: shenrouxi
+  photo: shenrouxi.jpg
+  grade: 2023级
+  brief_interest: 城市计算、图挖掘/图学习、大模型检索
+  biography:
+    - "2023级CS学生。正在探究如何在城市场景应用RAG。"
+    - "【用逻辑的刻刀雕刻混沌】.个人主页建设中<a href='https://yanzong223.github.io/' target='_blank'>https://yanzong223.github.io/</a>"

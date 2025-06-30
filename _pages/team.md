@@ -8,14 +8,14 @@ permalink: /team/
 
 <div class="page-container">
 
-# Group Members
+# 基地成员
 
-Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#undergraduate), [alumni](#alumni).
+跳转至 [教师](#staff), [2022级学生](#2022), [2023级学生](#2023), [2024级学生](#2024).
 
 <div class="title_placeholder" id="staff"></div>
-<h2>Staff</h2>
+<h2>教师</h2>
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.staff %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -24,22 +24,29 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 {% endif %}
 
 <div class="col-sm-9 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left" />
-  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} {% if member.chinese != "placeholder" %} | {{member.chinese}}{% endif %}</a></h4>
-  <i>{{ member.info }}
-  <br>Email: <{{ member.email }}>
-  <br>Website: <a href="{{member.link}}" target="_blank">{{ member.link }}</a>
-  <br>Room: {{ member.office }}</i>
+  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <h4><a href="{{member.link}}" target="_blank">{{ member.name }}</a></h4>
+  {{ member.info }}
+  <i><br>电子邮箱: <{{ member.email }}>
+  <br>个人主页: <a href="{{member.link}}" target="_blank">{{ member.link }}</a>
+  <br>负责内容: {{ member.role }}</i>
 
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-    See More
+    了解更多
   </button>
   {% endif %}
   <br>
   <div class="collapse" id="{{ member.id }}">
-  <h3>Biography</h3>
-  {{ member.biography }}
+  <h3>简介</h3>
+  <div>
+  <ul>
+  {% for item in member.biography %}
+  <li>{{ item }}</li>
+  {% endfor %}  
+  </ul>
+  </div>
+
   </div>
 </div>
 
@@ -56,10 +63,10 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 </div>
 {% endif %}
 
-<div class="title_placeholder" id="phd"></div>
-<h2>PhD</h2>
+<div class="title_placeholder" id="2022"></div>
+<h2>2022级学生</h2>
 {% assign number_printed = 0 %}
-{% for member in site.data.phd_members %}
+{% for member in site.data.students2022 %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -68,40 +75,21 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left" />
-  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} {% if member.id != "placeholder" %} | {{member.chinese}}{% endif %}</a></h4>
-  <i>{{ member.info }} 
-  <br>Email: <{{ member.email }}></i>
+  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
+  <i>年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}</i>
   {% if member.id != "placeholder" %}
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-    See More
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2022-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
+    了解更多
   </button>
   {% endif %}
-
-  <div class="collapse" id="{{ member.id }}">
-
-  <h3>Biography</h3>
+  <br>
+  <div class="collapse" id="2022-{{ member.id }}" style="clear: both;">
+  <h3>简介</h3>
   <div>
   <ul>
-  {% for item in member.education %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Interests</h3>
-  <div>
-  <ul>
-  {% for item in member.interest %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Correspondence</h3>
-  <div>
-  <ul>
-  {% for item in member.correspondence %}
+  {% for item in member.biography %}
   <li>{{ item }}</li>
   {% endfor %}  
   </ul>
@@ -123,10 +111,11 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 </div>
 {% endif %}
 
-<div class="title_placeholder" id="master"></div>
-<h2>Master</h2>
+
+<div class="title_placeholder" id="2023"></div>
+<h2>2023级学生</h2>
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.students2023 %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -135,40 +124,21 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left" />
-  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} {% if member.id != "placeholder" %} | {{member.chinese}}{% endif %}</a></h4>
-  <i>{{ member.info }} 
-  <br>Email: <{{ member.email }}></i>
+  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
+  <i>年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}</i>
   {% if member.id != "placeholder" %}
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-    See More
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2023-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
+    了解更多
   </button>
   {% endif %}
-
-  <div class="collapse" id="{{ member.id }}">
-
-  <h3>Biography</h3>
+  <br>
+  <div class="collapse" id="2023-{{ member.id }}" style="clear: both;">
+  <h3>简介</h3>
   <div>
   <ul>
-  {% for item in member.education %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Interests</h3>
-  <div>
-  <ul>
-  {% for item in member.interest %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Correspondence</h3>
-  <div>
-  <ul>
-  {% for item in member.correspondence %}
+  {% for item in member.biography %}
   <li>{{ item }}</li>
   {% endfor %}  
   </ul>
@@ -190,10 +160,11 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 </div>
 {% endif %}
 
-<div class="title_placeholder" id="undergraduate"></div>
-<h2>Undergraduate</h2>
+
+<div class="title_placeholder" id="2024"></div>
+<h2>2024级学生</h2>
 {% assign number_printed = 0 %}
-{% for member in site.data.undergraduate_members %}
+{% for member in site.data.students2024 %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -202,40 +173,21 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left" />
-  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} {% if member.id != "placeholder" %} | {{member.chinese}}{% endif %}</a></h4>
-  <i>{{ member.info }} 
-  <br>Email: <{{ member.email }}></i>
-  {% if member.id != "placeholder" %}
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-    See More
+  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
+   {% if member.id != "placeholder" %}
+  <i>年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}</i>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2024-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
+    了解更多
   </button>
   {% endif %}
-
-  <div class="collapse" id="{{ member.id }}">
-
-  <h3>Biography</h3>
+  <br>
+  <div class="collapse" id="2024-{{ member.id }}" style="clear: both;">
+  <h3>简介</h3>
   <div>
   <ul>
-  {% for item in member.education %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Interests</h3>
-  <div>
-  <ul>
-  {% for item in member.interest %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Correspondence</h3>
-  <div>
-  <ul>
-  {% for item in member.correspondence %}
+  {% for item in member.biography %}
   <li>{{ item }}</li>
   {% endfor %}  
   </ul>
@@ -257,109 +209,7 @@ Jump to [staff](#staff), [PhD](#phd), [master](#master), [undergraduate](#underg
 </div>
 {% endif %}
 
-<div class="title_placeholder" id="alumni"></div>
-<h2>Alumni</h2>
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left" />
-  <h4>{{ member.name }} | {{member.chinese}}</h4>
-  <i>{{ member.info }}</i>
-  {% if member.id != "placeholder" %}
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-    See More
-  </button>
-  {% endif %}
-
-  <div class="collapse" id="{{ member.id }}">
-
-  <h3>Biography</h3>
-  <div>
-  <ul>
-  {% for item in member.education %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Thesis</h3>
-  <div>
-  <ul>
-  {% for item in member.thesis %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  <h3>Correspondence</h3>
-  <div>
-  <ul>
-  {% for item in member.correspondence %}
-  <li>{{ item }}</li>
-  {% endfor %}  
-  </ul>
-  </div>
-
-  </div>  
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
 
 
-
-## Other Alumni
-{% for member in site.data.alumni_others %}
-
-<div class="row" style="margin-bottom: 5px;">
-<div class="col-sm-3">
-{{ member.name }} \| {{ member.chinese }}
-</div>
-<div class="col-sm-8" style="padding: 0px;">
-{{ member.attr }}
-</div>
-<div class="col-sm-1">
-{% if member.id != "placeholder" %}
-<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
-  See More
-</button>
-{% endif %}
-</div>
-<div class="col-sm-12">
-<div class="collapse well" id="{{ member.id }}">
-{{ member.biography }}
-</div>
-</div>
-</div>
-{% endfor %}
-
-## From NetSI, to the world!
-<div class="row">
-{% for pic in site.data.pics.memberlogo %}
-<div class="col-sm-2 col-xs-4 clearfix">
-<a href="{{ pic.link }}" target="_blank">
-<img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/memberlogo/{{ pic.image }}" width="100%" style="float: left" />
-</a>
-</div>
-{% endfor %}
-</div>
 
 </div>
