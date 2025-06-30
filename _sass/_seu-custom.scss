@@ -2,5 +2,15 @@
 @import "seu-custom/netsi-inherited";
 
 // 主要自定义样式可以直接在`_sass/seu-custom/_variables.scss`中修改，以确保跨页面一致性
+@import "seu-custom/variables";
 
-// 其他样式修改，请先在`_sass/seu-custom`中建立对应的文件(如已经存在，请修改)，然后在这里导入
+// 其他复杂样式修改，请先在`_sass/seu-custom`中建立对应的文件(如已经存在，请修改)，然后在这里导入
+
+// 其他简单自定义样式，覆写以上文件中的样式
+
+body {
+  p:not(:where(#newsid *, footer *, .navbar *)) { // 只针对正文部分进行修改
+    line-height: $main-line-height;
+    letter-spacing: $main-text-spacing;
+  }
+}
