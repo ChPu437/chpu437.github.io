@@ -1,5 +1,5 @@
 ---
-title: "拔尖书院 | 计算机拔尖基地"
+title: "拔尖书院"
 layout: gridlay
 excerpt: "."
 sitemap: false
