@@ -39,7 +39,7 @@ permalink: /academy/
 </div>
 
 <style>
-.btn {
+.subscribe-cta .btn {
   display: inline-block;
   padding: 12px 24px;
   background-color: #2c6bed;
@@ -51,12 +51,12 @@ permalink: /academy/
   transition: background-color 0.3s;
 }
 
-.btn:hover {
+.subscribe-cta .btn:hover {
   background-color: #1a5bc5;
   color: white;
 }
 
-.btn-primary {
+.subscribe-cta .btn-primary {
   background-color: #2c6bed;
 }
 </style>
