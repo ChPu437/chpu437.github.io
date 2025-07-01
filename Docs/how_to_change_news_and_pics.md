@@ -4,7 +4,7 @@
 在data/news.yml文件中复制之前的一条新闻条目代码，粘贴后修改，以下面这个条目的代码为例：
 ```yml
 - date: Apr. 9, 2025
-  headline: "2022,2023,2024 's companionship activity:<a href='https://mp.weixin.qq.com/s/84ZTnxK51wXLjL07DgKX1g' target='_blank'>link</a>"
+  headline: "2022,2023,2024级拔尖班联谊活动:<a href='https://mp.weixin.qq.com/s/84ZTnxK51wXLjL07DgKX1g' target='_blank'>查看详情</a>"
 
 ```
 
@@ -16,13 +16,13 @@
 - image：
   - 命名：日期 + 活动
   - 尺寸：2048 * 1152 像素
-  - 图片存放目录：seu-netsi.github.io/images/gallery
+  - 图片存放目录：chpu437.github.io/images/gallery
 - intro：会展示在图片下方的图片介绍
   
 
 ```yml
 - id: 2022_10_19_09J221_First_Event2
     image: 2212.jpg
-    intro: "09J221 first meeting"
+    intro: "09J221班第一次团建"
     date: "2022-10-19"
 ```
