@@ -6,31 +6,91 @@ sitemap: false
 permalink: /academy/
 ---
 
-## 计算机拔尖书院空间管理 
+## 计算机拔尖书院介绍
 
-### 基地简介
+### 书院简介
 
-东南大学计算机科学拔尖学生培养基地依托于东南大学计算机科学与技术国家级一流本科专业建设点和“双一流”国家重点学科，于2021年11月入选教育部基础学科拔尖学生培养计划2.0基地名单。基地的目标是建成在国内具有重要影响力、在国际上具有较高知名度的计算机拔尖人才培养基地。
+东南大学计算机科学拔尖学生培养基地书院空间坐落于东南大学九龙湖校区计算机楼北二楼，占地近700平米，包含2个学生创新实践空间、1个阅览室、2个研习室、以及多个研讨室和学生俱乐部空间。书院空间的落成启用给同学们的课程学习、科研创新、动手实践、竞赛培训、学术交流等活动提供了环境支持，同时也为发挥计算机学科优势，探索交叉融合的拔尖人才培养模式创造了有利条件。
 
-### 书院空间
+### 书院内部空间
 
-东南大学计算机科学拔尖学生培养基地书院空间位于九龙湖校区计算机楼北二楼，占地近700平米，包含学生研习室、研讨室、阅览室、报告厅、创新实践空间和学生俱乐部空间等，为学生的课程学习、科研创新、动手实践、竞赛培训、学术交流等活动提供环境支持。
+#### 平面图
 
-### 管理机制
+#### 自习空间
 
-书院空间由选拔组成的管理团队进行管理，管理团队负责书院空间内各项设施的维护和管理，确保空间能够满足学生自习、研讨、科研创新等需求。定期检查设施设备，确保正常运行，并及时响应学生的使用需求和反馈；致力于营造一个有利于学生全面发展的书院环境，通过文化活动和环境布置，强化书院的文化氛围，提升学生的归属感和认同感；协助学生在书院空间内开展各类学术和文化活动，提供必要的资源和指导。
+自习空间宽敞明亮，配备整洁桌椅与设备，营造专注氛围。为计算机科学拔尖学子提供自主学习、独立研究的安静场所，助力知识沉淀与思维拓展。
 
-### 管理团队
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/studyspace1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/studyspace2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
 
-管理团队由7位书院院长和7位书院副院长组成，通过前期报名、面试等选拔流程脱颖而出。他们是既有管理能力又有服务意识的优秀学生，能够协助开展相关工作，展现出高度的责任感和使命感，愿意为书院的发展贡献自己的力量。 
+#### 创新空间
 
+创新空间配备先进机器人等设备，为计算机科学拔尖学子提供硬件支撑，助力开展前沿技术实践、创新实验，是孕育科创成果的活力阵地。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/studio1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/studio2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+#### 会议空间
+
+会议空间为计算机科学拔尖学子打造小型研讨空间，配备便捷设备，提供开放交流场景，助力思维碰撞、团队研讨，是学术交流与项目协作的核心场地。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/meeting1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/meeting2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+#### 俱乐部空间
+
+俱乐部空间为学生团队提供专属的项目开发与协同办公环境，配备完善的设备与独立工作区，鼓励自主探索、创新实践，是计算机科学拔尖学子重要的课外科研与竞赛基地。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/club1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/club2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+#### 报告厅
+
+报告厅是计算机科学拔尖书院的大型学术交流空间，承载前沿技术讲座及学科研讨活动。为拔尖领航活动的展开，拔尖学子的思想碰撞与知识传播提供了平台。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/hall1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/hall2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+#### 开放共享空间
+
+开放共享空间是计算机科学拔尖书院的门厅与交流区，集展示、接待、讨论、休闲于一体。整体设计明亮舒适，营造开放、合作的学习氛围，是计算机科学拔尖学子启程与碰撞思想的起点。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/gate1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/gate2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+#### 阅读空间
+
+#### 休闲文化长廊
+
+休闲文化长廊两侧陈列拔尖基地活动照片，记录拔尖基地大小活动，见证计算机科学拔尖学子学习历程；走廊一端设圆桌交流区，绿植点缀添活力，是大家放松休闲和学习交流的温馨空间 。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/hallway1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/hallway2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
+
+<!-- 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 800px; margin: 0 auto;">
   <img src="{{ site.baseurl }}/images/academy/pic1.jpg" alt="图1" style="width: 45%; margin: 10px;">
   <img src="{{ site.baseurl }}/images/academy/pic2.jpg" alt="图2" style="width: 45%; margin: 10px;">
   <img src="{{ site.baseurl }}/images/academy/pic3.jpg" alt="图3" style="width: 45%; margin: 10px;">
   <img src="{{ site.baseurl }}/images/academy/pic4.jpg" alt="图4" style="width: 45%; margin: 10px;">
-</div>
+</div> -->
 
+
+[计算机拔尖书院空间管理](/policy/)
 
 <div class="subscribe-cta" style="background: #f8f9fa; border-radius: 8px; padding: 25px; margin: 40px 0; text-align: center; border-left: 4px solid #2c6bed;">
   <h3>资源预约服务</h3>
@@ -62,4 +122,4 @@ permalink: /academy/
 </style>
 
 
-<!-- [计算机拔尖书院预约说明](/_pages/subscribe) -->
+<!-- [计算机拔尖书院空间管理](/_pages/policy) -->
