@@ -67,31 +67,31 @@ ourgroup:
 seuview:
   - id: seu_1
     image: seu_1.jpg
-    intro: "Gate of Sipailou Campus"
+    intro: "四牌楼校区南门"
   - id: seu_2
     image: seu_2.jpg
-    intro: "Famous assembly hall"
+    intro: "大礼堂"
   - id: seu_3
     image: seu_3.jpg
-    intro: "Assembly hall in winter"
+    intro: "大礼堂 冬"
   - id: seu_4
     image: seu_4.jpg
-    intro: "Airscape"
+    intro: "空中俯瞰大草坪"
   - id: seu_5
     image: seu_5.jpg
-    intro: "Gymnasium"
+    intro: "体育馆"
   - id: seu_6
     image: seu_6.jpg
-    intro: "Playground"
+    intro: "桃园操场"
   - id: seu_7
     image: seu_7.jpg
-    intro: "Airscape of the library"
+    intro: "李文正图书馆"
   - id: seu_8
     image: seu_8.jpg
-    intro: "Airscape in winter"
+    intro: "九龙湖校区 冬"
   - id: seu_9
     image: seu_9.jpg
-    intro: "Landscape lake"
+    intro: "九龙湖"
 
 memberlogo:
   - id: Peking University
