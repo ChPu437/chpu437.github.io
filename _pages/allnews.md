@@ -6,7 +6,7 @@ sitemap: false
 permalink: /allnews.html
 ---
 
-# News
+# 新闻动态
 
 {% for article in site.data.news %}
 <p><b>{{ article.date }}</b><br>

@@ -14,6 +14,8 @@ permalink: /subscribe/
 
 <p style="text-align: center;">
   <img src="{{ site.baseurl }}/images/academy/1280X1280.png" alt="预约二维码" style="width: 200px; height: auto;" />
+  <br />
+  <span style="display: inline-block; margin-top: 8px;">预约网址：http://10.201.0.222:8080/#/stu/book</span>
 </p>
 
 ### 预约步骤
@@ -40,4 +42,6 @@ permalink: /subscribe/
 
 <p style="text-align: center;">
   <img src="{{ site.baseurl }}/images/academy/Fankui.png" alt="预约二维码" style="width: 200px; height: auto;" />
+  <br />
+  <span style="display: inline-block; margin-top: 8px;">反馈问卷：https://www.wjx.cn/vm/tUsyS4F.aspx</span>
 </p>
