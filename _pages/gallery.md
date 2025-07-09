@@ -1,18 +1,18 @@
 ---
 title: "照片展示"
 layout: piclay
-excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
+excerpt: "欢迎加入东南大学计算机科学与工程拔尖学生培养基地，祝您在此度过四年愉快的大学生活。"
 permalink: /gallery/
 ---
 
 <div class="page-container">
 
-# Gallery
-<p>Jump to <a href="#our-group">Our Group</a>, <a href="#southeast-university">Southeast University</a>.</p>
+# 照片长廊
+<p>点击查看详情 <a href="#我们的活动">我们的活动</a>, <a href="#东南大学">东南大学</a>.</p>
 
-<div class="title_placeholder" id="our-group"></div>
-<h2>Our Group</h2>
-Record Life, Record Us.<br>
+<div class="title_placeholder" id="我们的活动"></div>
+<h2>我们的活动</h2>
+记录生活，记录我们。<br>
 {% assign number_printed = 0 %}
 
 {% for pic in site.data.pics.ourgroup %}
@@ -42,9 +42,9 @@ Record Life, Record Us.<br>
 </div>
 {% endif %}
 
-<div class="title_placeholder" id="southeast-university"></div>
-<h2>Southeast University</h2>
-The first 3 pictures in the first row are taken in Sipailou Campus (Since 1902), <br> the other pictures in the next rows are taken in Jiulonghu Campus (Since 2006).<br>
+<div class="title_placeholder" id="东南大学"></div>
+<h2>东南大学</h2>
+图1-3拍摄于东南大学四牌楼校区（始于1902年）， <br>图4-9拍摄于东南大学九龙湖校区（始于2006）。<br>
 
 {% assign number_printed = 0 %}
 {% assign even_odd = 0 %}
