@@ -4,6 +4,7 @@ layout: homelay
 excerpt: "拔尖基地"
 sitemap: false
 permalink: /
+slug: home
 ---
 
 ### 计算机科学拔尖学生培养基地
