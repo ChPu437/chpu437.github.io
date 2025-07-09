@@ -6,20 +6,27 @@ sitemap: false
 permalink: /admission
 ---
 
-<div class="page-container">
 <style>
 /* new styles added below*/
 h2 {
-text-align: center;
-color: #ff6600;
-border-bottom: #ff6600 2px dashed;
+    /*text-align: center;*/
+    /*color: #ff6600;*/
+    color: #548dd4;
+    /*border-bottom: #ff6600 2px dashed;*/
+    border-bottom: #548dd4 2px dashed;
 }
-h3 {
-color: #548dd4;
-margin-bottom: 0;
+h3, h4, h5, h6 {
+    color: #548dd4;
+    margin-bottom: 0;
+    margin-left: 0.3em;
 }
-h4 {
-color: #548dd4;
+p {
+    margin-left: 1em;
+}
+img {
+    margin: auto;
+    display: block;
+    /*height: 20em;*/
 }
 </style>
 
