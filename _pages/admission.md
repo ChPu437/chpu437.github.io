@@ -4,22 +4,30 @@ layout: textlay
 excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
 sitemap: false
 permalink: /admission
+slug: admission
 ---
 
-<div class="page-container">
 <style>
 /* new styles added below*/
 h2 {
-text-align: center;
-color: #ff6600;
-border-bottom: #ff6600 2px dashed;
+    /*text-align: center;*/
+    /*color: #ff6600;*/
+    color: #548dd4;
+    /*border-bottom: #ff6600 2px dashed;*/
+    border-bottom: #548dd4 2px dashed;
 }
-h3 {
-color: #548dd4;
-margin-bottom: 0;
+h3, h4, h5, h6 {
+    color: #548dd4;
+    margin-bottom: 0;
+    margin-left: 0.3em;
 }
-h4 {
-color: #548dd4;
+p {
+    margin-left: 1em;
+}
+img {
+    margin: auto;
+    display: block;
+    /*height: 20em;*/
 }
 </style>
 
@@ -81,7 +89,7 @@ color: #548dd4;
 
 ## 交流群
 
-更多问题，请加入QQ群交流咨。
+更多问题，请加入QQ群交流咨询。
 
 群号: 162266808
 

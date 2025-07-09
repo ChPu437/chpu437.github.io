@@ -3,6 +3,7 @@ title: "照片展示"
 layout: piclay
 excerpt: "欢迎加入东南大学计算机科学与工程拔尖学生培养基地，祝您在此度过四年愉快的大学生活。"
 permalink: /gallery/
+slug: gallery
 ---
 
 <div class="page-container">
