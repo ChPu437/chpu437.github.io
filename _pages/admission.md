@@ -7,17 +7,18 @@ permalink: /admission
 slug: admission
 ---
 
+
+
 <style>
 /* new styles added below*/
 h2 {
-    /*text-align: center;*/
-    /*color: #ff6600;*/
     color: #548dd4;
-    /*border-bottom: #ff6600 2px dashed;*/
+    font-size: 1.5em;
     border-bottom: #548dd4 2px dashed;
 }
 h3, h4, h5, h6 {
     color: #548dd4;
+    font-size: 1.2em; 
     margin-bottom: 0;
     margin-left: 0.3em;
 }
@@ -93,5 +94,6 @@ img {
 
 群号: 162266808
 
-![交流QQ群](images/admission/qq_qun_id.jpg)
+
+![交流QQ群](https://chpu437.github.io/images/admission/qq_qun_id.jpg)
 
