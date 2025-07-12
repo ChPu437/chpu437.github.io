@@ -3,7 +3,7 @@ title: "拔尖书院"
 layout: gridlay
 excerpt: "."
 sitemap: false
-permalink: /academy/
+permalink: /academy
 slug: academy
 ---
 

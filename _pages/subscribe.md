@@ -3,7 +3,7 @@ title: "书院预约说明"
 layout: gridlay
 excerpt: "."
 sitemap: false
-permalink: /subscribe/
+permalink: /subscribe
 slug: subscribe
 ---
 

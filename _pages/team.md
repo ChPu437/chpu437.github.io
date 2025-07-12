@@ -3,7 +3,7 @@ title: "基地成员"
 layout: gridlay
 excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
 sitemap: false
-permalink: /team/
+permalink: /team
 slug: team
 ---
 

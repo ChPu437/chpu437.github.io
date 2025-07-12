@@ -3,7 +3,7 @@ title: "基地简介"
 layout: textlay
 excerpt: "."
 sitemap: false
-permalink: /intro/
+permalink: /intro
 slug: intro
 ---
 
