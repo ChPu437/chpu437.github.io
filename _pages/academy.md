@@ -17,34 +17,38 @@ slug: academy
 
 #### 平面图
 
-#### 自习空间
+<div style="display: flex; justify-content: center;">
+  <img src="{{ site.baseurl }}/images/academy/graph.jpg" alt="图1" style="width: 600px; height: 450px; object-fit: cover;" />
+</div>
 
-自习空间宽敞明亮，配备整洁桌椅与设备，营造专注氛围。为计算机科学拔尖学子提供自主学习、独立研究的安静场所，助力知识沉淀与思维拓展。
+#### 研习室256，260
+
+研习室宽敞明亮，配备整洁桌椅与设备，营造专注氛围。为计算机科学拔尖学子提供自主学习、独立研究的安静场所，助力知识沉淀与思维拓展。
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="{{ site.baseurl }}/images/academy/studyspace1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
   <img src="{{ site.baseurl }}/images/academy/studyspace2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
 </div>
 
-#### 创新空间
+#### 创新实践空间229
 
-创新空间配备先进机器人等设备，为计算机科学拔尖学子提供硬件支撑，助力开展前沿技术实践、创新实验，是孕育科创成果的活力阵地。
+创新实践空间配备先进机器人等设备，为计算机科学拔尖学子提供硬件支撑，助力开展前沿技术实践、创新实验，是孕育科创成果的活力阵地。
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="{{ site.baseurl }}/images/academy/studio1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
   <img src="{{ site.baseurl }}/images/academy/studio2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
 </div>
 
-#### 会议空间
+#### 研讨室266，268
 
-会议空间为计算机科学拔尖学子打造小型研讨空间，配备便捷设备，提供开放交流场景，助力思维碰撞、团队研讨，是学术交流与项目协作的核心场地。
+研讨室为计算机科学拔尖学子打造小型研讨空间，配备便捷设备，提供开放交流场景，助力思维碰撞、团队研讨，是学术交流与项目协作的核心场地。
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="{{ site.baseurl }}/images/academy/meeting1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
   <img src="{{ site.baseurl }}/images/academy/meeting2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
 </div>
 
-#### 俱乐部空间
+#### 俱乐部空间237
 
 俱乐部空间为学生团队提供专属的项目开发与协同办公环境，配备完善的设备与独立工作区，鼓励自主探索、创新实践，是计算机科学拔尖学子重要的课外科研与竞赛基地。
 
@@ -53,7 +57,7 @@ slug: academy
   <img src="{{ site.baseurl }}/images/academy/club2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
 </div>
 
-#### 报告厅
+#### 报告厅233
 
 报告厅是计算机科学拔尖书院的大型学术交流空间，承载前沿技术讲座及学科研讨活动。为拔尖领航活动的展开，拔尖学子的思想碰撞与知识传播提供了平台。
 
@@ -71,7 +75,14 @@ slug: academy
   <img src="{{ site.baseurl }}/images/academy/gate2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
 </div>
 
-#### 阅读空间
+#### 阅览室270
+
+阅览室为简约明亮空间，长桌、座椅营造开放交流氛围，书架汇聚计算机及多元领域书籍，是计算机科学拔尖学子汲取知识、开展研讨的思想滋养地 。
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="{{ site.baseurl }}/images/academy/reading1.jpg" alt="图1" style="width: 400px; height: 300px; object-fit: cover;" />
+  <img src="{{ site.baseurl }}/images/academy/reading2.jpg" alt="图2" style="width: 400px; height: 300px; object-fit: cover;" />
+</div>
 
 #### 休闲文化长廊
 
@@ -91,7 +102,7 @@ slug: academy
 </div> -->
 
 
-[计算机拔尖书院空间管理](/policy/)
+### [计算机拔尖书院空间管理](/policy/)
 
 <div class="subscribe-cta" style="background: #f8f9fa; border-radius: 8px; padding: 25px; margin: 40px 0; text-align: center; border-left: 4px solid #2c6bed;">
   <h3>资源预约服务</h3>
