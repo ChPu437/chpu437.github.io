@@ -4,6 +4,7 @@ layout: gridlay
 excerpt: "Welcome to the SEU NetSI Group! We conducts research in the area of Internet of Things and Swarm Intelligence. Our goal is to provide theoretically sound analysis as well as build practically working systems."
 sitemap: false
 permalink: /team/
+slug: team
 ---
 
 <div class="page-container">
@@ -27,9 +28,9 @@ permalink: /team/
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }}</a></h4>
   {{ member.info }}
-  <i><br>电子邮箱: <{{ member.email }}>
+  <br>电子邮箱: <{{ member.email }}>
   <br>个人主页: <a href="{{member.link}}" target="_blank">{{ member.link }}</a>
-  <br>负责内容: {{ member.role }}</i>
+  <br>负责内容: {{ member.role }}
 
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
@@ -77,8 +78,8 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
-  <i>年级: {{ member.grade }}
-  <br>兴趣: {{ member.brief_interest }}</i>
+  年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2022-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
     了解更多
@@ -126,8 +127,8 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
-  <i>年级: {{ member.grade }}
-  <br>兴趣: {{ member.brief_interest }}</i>
+  年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2023-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
     了解更多
@@ -175,9 +176,9 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
+  年级: {{ member.grade }}
+  <br>兴趣: {{ member.brief_interest }}
    {% if member.id != "placeholder" %}
-  <i>年级: {{ member.grade }}
-  <br>兴趣: {{ member.brief_interest }}</i>
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2024-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
     了解更多
   </button>

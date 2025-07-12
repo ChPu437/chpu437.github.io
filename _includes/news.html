@@ -1,10 +1,10 @@
 <div class="well">
-<h4>News</h4>
+<h4>新闻动态</h4>
 
-{% for article in site.data.news limit:9 %}
+{% for article in site.data.news limit:10 %}
 <b>{{ article.date }}</b>
 <p>{{ article.headline }}</p>
 {% endfor %}
 
-<a href="{{ site.url }}{{ site.baseurl }}/allnews.html" class="btn btn-primary" role="button">See More</a>
+<a href="{{ site.url }}{{ site.baseurl }}/allnews.html" class="btn btn-primary" role="button">了解更多</a>
 </div>

@@ -4,6 +4,7 @@ layout: gridlay
 excerpt: "."
 sitemap: false
 permalink: /academy/
+slug: academy
 ---
 
 ## 计算机拔尖书院介绍

@@ -1,11 +1,12 @@
 // 先前netsi仓库的自定义样式，作为基础
 @import "seu-custom/netsi-inherited";
 
-// 主要自定义样式可以直接在`_sass/seu-custom/_variables.scss`中修改，以确保跨页面一致性
+// 主要自定义样式可以在`_sass/seu-custom/_variables.scss`中建立变量维护，以确保跨页面一致性
 @import "seu-custom/variables";
 
 // 其他复杂样式修改，请先在`_sass/seu-custom`中建立对应的文件(如已经存在，请修改)，然后在这里导入
-@import "seu-custom/homepage";
+@import "seu-custom/page/home";
+@import "seu-custom/page/admission";
 
 // 其他简单自定义样式，覆写以上文件中的样式
 

@@ -4,6 +4,7 @@ layout: gridlay
 excerpt: "."
 sitemap: false
 permalink: /policy/
+slug: policy
 ---
 
 ## 计算机拔尖书院空间管理 

@@ -4,6 +4,7 @@ layout: gridlay
 excerpt: "."
 sitemap: false
 permalink: /subscribe/
+slug: subscribe
 ---
 
 ## 计算机拔尖书院预约说明
