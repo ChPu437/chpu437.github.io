@@ -16,7 +16,7 @@ ourgroup:
     intro: "09J231班开展相伴活动"
     date: "2025-04-02"
   - id: 2025_01_13_dalianligong1
-    image: dalian.jpg
+    image: dalian.png
     intro: "大连理工大学计算机学院社会实践团来校交流"
     date: "2025-01-13"
   - id: 2024_12_21_Companion_Event1
@@ -44,7 +44,7 @@ ourgroup:
     intro: "22,23级拔尖班香港研学"
     date: "2024-09-14"
   - id: 2024_8_22_Event1
-    image: gangli.jpg
+    image: gangli.png
     intro: "香港理工大学来校访问"
     date: "2024-8-22"
   - id: 2024_03_05_Excellence_Union1
@@ -72,7 +72,7 @@ ourgroup:
     intro: "09J221班成员参加图灵大会"
     date: "2023-09-09"
   - id: 2023_06_zuotanhui
-    image: 202306.jpg
+    image: 202306.jpeg
     intro: "拔尖学生培养与成长座谈会"
     date: "2023-06"
   - id: 2022_10_19_09J221_First_Event1
