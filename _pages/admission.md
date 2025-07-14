@@ -24,7 +24,7 @@ h3, h4, h5, h6 {
 }
 p {
     margin-left: 2em;
-    font-size: 16px; 
+    font-size: 16px !important; 
 }
 img {
     margin: auto;
