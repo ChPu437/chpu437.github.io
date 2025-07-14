@@ -13,3 +13,35 @@
   brief_interest: 系统安全/嵌入式安全
   biography:
     - "个人博客: <a href='https://blog.chpu437.com' target='_blank'>https://blog.chpu437.com</a>"
+
+- name: 朱佳航
+  id: zhujiahang
+  photo: zhujiahang.jpg
+  grade: 2022级
+  brief_interest: 机器学习、算法设计
+  biography:
+    - "github主页：<a href='https://github.com/merosy07' target='_blank'>https://github.com/merosy07</a>"
+
+- name: 王宸
+  id: wangchen
+  photo: wangchen.jpg
+  grade: 2022级
+  brief_interest: 大模型、算法设计
+  biography:
+    - "东南大学2022级拔尖班心理委员，正在研究AHD+game/mech方向"
+
+- name: 汪骏宇
+  id: wangjunyu
+  photo: wangjunyu.jpg
+  grade: 2022级
+  brief_interest: 计算机图形学
+  biography:
+    - "怨虎龙没打过来学图形学不是本末倒置嘛！"
+
+- name: 黄恒煊
+  id: huanghengxuan
+  photo: huanghengxuan.jpg
+  grade: 2022级
+  brief_interest: 算法优化与智能物联网，机器学习相关的知识。
+  biography:
+    - "本人积极进取，具有责任心，作为22级拔尖班的班长和拔尖基地的图书管理员，一直为拔尖基地的维护和使用进言献策，贡献力量。"
