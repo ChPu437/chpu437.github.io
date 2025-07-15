@@ -11,6 +11,7 @@
   photo: pujing.jpg
   grade: 2022级
   brief_interest: 系统安全/嵌入式安全
+  link: https://blog.chpu437.com
   biography:
     - "个人博客: <a href='https://blog.chpu437.com' target='_blank'>https://blog.chpu437.com</a>"
 
@@ -19,6 +20,7 @@
   photo: zhujiahang.jpg
   grade: 2022级
   brief_interest: 机器学习、算法设计
+  link: https://github.com/merosy07
   biography:
     - "github主页：<a href='https://github.com/merosy07' target='_blank'>https://github.com/merosy07</a>"
 
