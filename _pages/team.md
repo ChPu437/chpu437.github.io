@@ -11,7 +11,7 @@ slug: team
 
 # 基地成员
 
-跳转至 [教师](#staff), [2022级学生](#2022), [2023级学生](#2023), [2024级学生](#2024).
+跳转至 [教师](#staff), [2022级学生](#2022), [2023级学生](#2023), [2024级学生](#2024), [2025级学生](#2025).
 
 <div class="title_placeholder" id="staff"></div>
 <h2>教师</h2>
@@ -85,7 +85,6 @@ slug: team
     了解更多
   </button>
   {% endif %}
-  <br>
   <div class="collapse" id="2022-{{ member.id }}" style="clear: both;">
   <h3>简介</h3>
   <div>
@@ -134,7 +133,6 @@ slug: team
     了解更多
   </button>
   {% endif %}
-  <br>
   <div class="collapse" id="2023-{{ member.id }}" style="clear: both;">
   <h3>简介</h3>
   <div>
@@ -183,7 +181,6 @@ slug: team
     了解更多
   </button>
   {% endif %}
-  <br>
   <div class="collapse" id="2024-{{ member.id }}" style="clear: both;">
   <h3>简介</h3>
   <div>
@@ -224,7 +221,7 @@ slug: team
 
 <div class="col-sm-6 clearfix">
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
-  <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
+  <h4><a href="{{ site.url }}{{ site.baseurl }}/admission" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
   <br>兴趣: {{ member.brief_interest }}
    {% if member.id != "placeholder" %}
@@ -232,7 +229,6 @@ slug: team
     了解更多
   </button>
   {% endif %}
-  <br>
   <div class="collapse" id="2025-{{ member.id }}" style="clear: both;">
   <h3>简介</h3>
   <div>
