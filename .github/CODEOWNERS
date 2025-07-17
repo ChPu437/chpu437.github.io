@@ -1,0 +1,14 @@
+# the last line of rule takes the highest priority
+
+# 仓库所有者，未被其他规则选中时此处所有人都参与审查
+* chpu437@163.com
+
+# 样式修改审查
+*.css chpu437@163.com
+*.sass chpu437@163.com
+
+# 内容修改审查
+/_data/* chpu437@163.com twinhorse@twinhorse.net
+/_pages/* chpu437@163.com twinhorse@twinhorse.net
+/favicon.ico chpu437@163.com twinhorse@twinhorse.net
+/_includes/* chpu437@163.com twinhorse@twinhorse.net
