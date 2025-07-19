@@ -102,7 +102,7 @@ slug: academy
 </div> -->
 
 
-### [计算机拔尖书院空间管理](/policy/)
+### [计算机拔尖书院空间管理](/policy)
 
 <div class="subscribe-cta" style="background: #f8f9fa; border-radius: 8px; padding: 25px; margin: 40px 0; text-align: center; border-left: 4px solid #2c6bed;">
   <h3>资源预约服务</h3>

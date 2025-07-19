@@ -10,6 +10,7 @@
   photo: maozhouxiang.jpg
   grade: 2024级
   brief_interest: 弱监督学习、软件开发
+  link: https://github.com/huan-yp
   biography:
     - 热爱开源事业的全栈技术老登：<a href="https://github.com/huan-yp">github.com/huan-yp</a>
 
@@ -21,4 +22,11 @@
   biography:
     - 2024级计算机拔尖班学生
 
+- name: 魏思远
+  id: weisiyuan
+  photo: weisiyuan.jpg
+  grade: 2024级
+  brief_interest: 计算机科学
+  biography:
+    - 2024级计算机拔尖班学生
 

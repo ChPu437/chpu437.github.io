@@ -1,0 +1,15 @@
+#- name:
+#  photo: 
+#  info:
+#  email:
+#  link: 
+#  biography:
+
+- name: 可能是你！
+  id: placeholder
+  photo: placeholder.jpg
+  grade: 2025级
+  brief_interest: 计算机科学
+  biography:
+
+
