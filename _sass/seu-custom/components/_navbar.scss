@@ -1,0 +1,6 @@
+@import "../variables";
+
+.nav  > li > a {
+  padding-left: $navbar-right-padding-horizontal;
+  padding-right: $navbar-right-padding-horizontal;
+}
