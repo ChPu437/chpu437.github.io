@@ -11,7 +11,7 @@
   headline: "陈啸天(24级)、娄嘉程(24级)获江苏省大学生数学竞赛一等奖"
 
 - date: 2025/5
-  headline: "王朝乐(23级)获2025年中国大学生计算机设计大赛特等奖，沈柔希(23级)获三等奖"
+  headline: "王朝乐(23级)获2025年中国大学生计算机设计大赛特等奖,沈柔希(23级)获三等奖"
 
 - date: 2025/4/23
   headline: "“拔尖领航系列活动暨导师交流计划”第二十期 图数据处理与前沿应用:<a href='https://mp.weixin.qq.com/s/pTxDuDSq21bcVJmGrvs-eQ' target='_blank'>查看详情</a>"
@@ -23,7 +23,7 @@
   headline: "09J231班获评东南大学先进班集体:<a href='https://mp.weixin.qq.com/s/rx-SDbVEV7tmN7BKKLhsTg' target='_blank'>查看详情</a>"
 
 - date: 2025/4
-  headline: "陈天一(23级)、董乐天(23级)、梁睎远(23级)获2025年蓝桥杯江苏省C++A组一等奖，林子尧(23级)获二等奖"
+  headline: "陈天一(23级)、董乐天(23级)、梁睎远(23级)获2025年蓝桥杯江苏省C++A组一等奖,林子尧(23级)获二等奖"
   
 - date: 2025/4
   headline: "林子尧(23级)、沈柔希(23级)获2025年全国大学生英语竞赛三等奖"
@@ -37,8 +37,11 @@
 - date: 2025/2
   headline: "刘玮辰(23级)获ASC25世界大学生超级计算机竞赛二等奖"
 
+- date: 2025/1/13
+  headline: "大连理工大学计算机学院社会实践团来访拔尖基地交流"
+
 - date: 2025/1
-  headline: "何辰玮(23级)、魏思远(24级)获美国大学生数学建模比赛H奖，林子尧(23级)、董乐天(23级)获S奖"
+  headline: "何辰玮(23级)、魏思远(24级)获美国大学生数学建模比赛H奖,林子尧(23级)、董乐天(23级)获S奖"
 
 - date: 2024/12/7
   headline: "09J241班开展 '计'思广益,相伴同行 活动:<a href='https://mp.weixin.qq.com/s/zZGev2eaYl21eEhVAsuWQA' target='_blank'>查看详情</a>"
@@ -157,11 +160,17 @@
 - date: 2023/10/18
   headline: "“拔尖领航系列活动暨导师交流计划”第八期 AI for科学计算:<a href='https://mp.weixin.qq.com/s/HNsgKB81Kx8KqT6D2tvS1Q' target='_blank'>查看详情</a>"
 
+- date: 2023/8/22
+  headline: "香港理工大学代表团来访拔尖基地交流"
+
 - date: 2023/8
   headline: "刘一鸣(23级)获百度之星程序设计大赛决赛金奖"
 
 - date: 2023/7/29
   headline: "计算机科学拔尖班参加2023中国图灵大会纪录:<a href='https://mp.weixin.qq.com/s/9wr6Bzdf6zTiKM4byOlacQ' target='_blank'>查看详情</a>"
+
+- date: 2023/6
+  headline: "计算机科学拔尖学生培养与成长座谈会召开"
 
 - date: 2023/5/18
   headline: "“拔尖领航系列活动暨导师交流计划”第七期 多智能体系统与一致性模型 数据经济时代的算力网络技术:<a href='https://mp.weixin.qq.com/s/HvI2QZzLtQFdEbUIHBKj_Q' target='_blank'>查看详情</a>"
@@ -193,3 +202,5 @@
 - date: 2022/5/25
   headline: "“拔尖领航系列活动暨导师交流计划”第一期 数据挖掘在智慧城市中的应用 知识图谱：理论、技术、实践和挑战:<a href='https://mp.weixin.qq.com/s/9EFLzvqbQ-LG4je2s2UrVw' target='_blank'>查看详情</a>"
 
+- date: 2022/9/13
+  headline: "计算机拔尖班开班见面会暨班会召开"

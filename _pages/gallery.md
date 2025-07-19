@@ -8,7 +8,7 @@ slug: gallery
 
 <div class="page-container">
 
-# 照片长廊
+# 照片展示
 <p>点击查看详情 <a href="#我们的活动">我们的活动</a>, <a href="#东南大学">东南大学</a>.</p>
 
 <div class="title_placeholder" id="我们的活动"></div>
