@@ -30,3 +30,10 @@
   biography:
     - 2024级计算机拔尖班学生
 
+- name: 杜鑫研
+  id: duxinyan
+  photo: duxinyan.jpg
+  grade: 2024级
+  brief_interest: 算法竞赛
+  biography:
+    - 曾经的oier，半退役状态。
