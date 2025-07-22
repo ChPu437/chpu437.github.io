@@ -6,8 +6,6 @@ permalink: /gallery/
 slug: gallery
 ---
 
-[//]: # (图片链接需要修改)
-
 <div class="page-container">
 
 # 照片展示
@@ -28,7 +26,7 @@ slug: gallery
 {% endif %}
 
 <div class="col-sm-6 clearfix gallery-pic text-warning">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded" width="100%" style="float: left" /> <!-- 该链接需要修改 -->
+<img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded" width="100%" style="float: left" /> <!-- 该链接需要修改 -->
 
 {{ pic.intro }} <br><span class="label label-default">{{ pic.date }}</span>
 </div>
@@ -59,7 +57,7 @@ slug: gallery
 {% endif %}
 
 <div class="col-sm-4 clearfix gallery-pic text-success">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded"  width="100%" style="float: left" /> <!-- 该链接需要修改 -->
+<img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded"  width="100%" style="float: left" /> <!-- 该链接需要修改 -->
 
 </div>
 

@@ -7,8 +7,6 @@ permalink: /team
 slug: team
 ---
 
-[//]: # (图片链接需要修改)
-
 <div class="page-container">
 
 # 基地成员
@@ -27,7 +25,7 @@ slug: team
 {% endif %}
 
 <div class="col-sm-9 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />  <!-- 该链接需要修改 -->
+  <img class="img-responsive img-rounded" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />  <!-- 该链接需要修改 -->
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }}</a></h4>
   {{ member.info }}
   <br>电子邮箱: <{{ member.email }}>
@@ -78,7 +76,7 @@ slug: team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <img class="img-responsive img-rounded" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
   <br>兴趣: {{ member.brief_interest }}
@@ -126,7 +124,7 @@ slug: team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <img class="img-responsive img-rounded" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
   <br>兴趣: {{ member.brief_interest }}
@@ -174,7 +172,7 @@ slug: team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <img class="img-responsive img-rounded" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
   <br>兴趣: {{ member.brief_interest }}
@@ -222,7 +220,7 @@ slug: team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
+  <img class="img-responsive img-rounded" src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{ site.url }}{{ site.baseurl }}/admission" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
   <br>兴趣: {{ member.brief_interest }}
