@@ -15,6 +15,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: ""
+  东南大学计算机科学拔尖学生培养基地，简称“计算机拔尖基地”，
+  是东南大学计算机科学与工程学院为培养国家和社会需要的高层次
+  创新型人才而设立的特色人才培养基地。基地以“培养具有国际视野、
+  创新精神和实践能力的拔尖人才”为目标，致力于为学生提供优质的
+  教育资源和实践机会。
 
 include:
   - .htaccess
