@@ -6,6 +6,8 @@ permalink: /gallery/
 slug: gallery
 ---
 
+[//]: # (图片链接需要修改)
+
 <div class="page-container">
 
 # 照片展示

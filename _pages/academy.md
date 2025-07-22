@@ -7,6 +7,8 @@ permalink: /academy
 slug: academy
 ---
 
+[//]: # (图片链接需要修改)
+
 ## 计算机拔尖书院介绍
 
 ### 书院简介

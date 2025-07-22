@@ -7,6 +7,8 @@ permalink: /team
 slug: team
 ---
 
+[//]: # (图片链接需要修改)
+
 <div class="page-container">
 
 # 基地成员

@@ -249,5 +249,5 @@
   chinese: placeholder
   id: placeholder
   photo: placeholder.jpg
-  info: See <a href="/admission">admission</a> for more info
+  info: See <a href="./admission">admission</a> for more info # <!-- 该链接需要修改 -->
   email: shanfeng@seu.edu.cn

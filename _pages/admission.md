@@ -8,6 +8,7 @@ slug: admission
 ---
 
 
+[//]: # (图片链接需要修改)
 
 <style>
 /* new styles added below*/
