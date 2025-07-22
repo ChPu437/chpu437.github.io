@@ -16,7 +16,7 @@ description: > # this means to ignore newlines until "baseurl:"
   创新精神和实践能力的拔尖人才”为目标，致力于为学生提供优质的
   教育资源和实践机会。
 baseurl: "/bajian"
-url: "https://cs.seu.edu.cn" # 这里在最后应当填写实际的域名，如https://cs.seu.edu.cn/，注意必须包含后面的斜线
+url: "https://cs.seu.edu.cn" # 这里在最后应当填写实际的域名，如https://cs.seu.edu.cn，注意不要包含后面的斜线
 
 include:
   - .htaccess
