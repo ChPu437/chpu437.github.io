@@ -14,8 +14,4 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="shortcut icon" type ="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
 </head>
