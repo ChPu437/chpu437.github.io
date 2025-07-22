@@ -10,16 +10,13 @@ title: 东南大学计算机科学拔尖学生培养基地 # 网站首页的标�
 title_short: 计算机拔尖基地 # 网站其他页面的标题，显示格式类似 “基地简介 | {{title_short}}”
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: ""
-url: ""
   东南大学计算机科学拔尖学生培养基地，简称“计算机拔尖基地”，
   是东南大学计算机科学与工程学院为培养国家和社会需要的高层次
   创新型人才而设立的特色人才培养基地。基地以“培养具有国际视野、
   创新精神和实践能力的拔尖人才”为目标，致力于为学生提供优质的
   教育资源和实践机会。
+baseurl: "/bajian"
+url: "https://cs.seu.edu.cn" # 这里在最后应当填写实际的域名，如https://cs.seu.edu.cn/，注意必须包含后面的斜线
 
 include:
   - .htaccess
