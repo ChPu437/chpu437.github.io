@@ -8,20 +8,20 @@
 		<span class="icon-bar"></span>
 	  </button>
 	
-	<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">东南大学计算机科学拔尖学生培养基地</a> <!-- 该链接需要修改 -->
+	<a class="navbar-brand" href="{{ '/' | relative_url }}">东南大学计算机科学拔尖学生培养基地</a>
 
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		
-		<li><a href="{{ site.url }}{{ site.baseurl }}/intro">基地简介</a></li> <!-- 该链接需要修改 -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/academy">拔尖书院</a></li> <!-- 该链接需要修改 -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">基地成员</a></li> <!-- 该链接需要修改 -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/admission">招生问答</a></li> <!-- 该链接需要修改 -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/gallery">照片展示</a></li> <!-- 该链接需要修改 -->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/allnews">新闻动态</a></li> <!-- 该链接需要修改 -->
+		<li><a href="{{ '/intro' | relative_url }}">基地简介</a></li>
+		<li><a href="{{ '/academy' | relative_url }}">拔尖书院</a></li>
+		<li><a href="{{ '/team' | relative_url }}">基地成员</a></li>
+		<li><a href="{{ '/admission' | relative_url }}">招生问答</a></li>
+		<li><a href="{{ '/gallery' | relative_url }}">照片展示</a></li>
+		<li><a href="{{ '/allnews' | relative_url }}">新闻动态</a></li>
 
-		<li><a href="https://www.bing.com/search?q=site%3Abj.cs.seu.edu.cn " target="_blank" style="padding: 9px 25px 9px 5px;"><button class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></a></li>
+		<li><a href="https://www.bing.com/search?q={{ site.url | append: site.baseurl | url_encode }}" target="_blank" style="padding: 9px 25px 9px 5px;"><button class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></a></li>
 	  </ul>
 	</div>
   </div>
