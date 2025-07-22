@@ -26,7 +26,7 @@ slug: gallery
 {% endif %}
 
 <div class="col-sm-6 clearfix gallery-pic text-warning">
-<img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded" width="100%" style="float: left" /> <!-- 该链接需要修改 -->
+<img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive img-rounded" width="100%" style="float: left" />
 
 {{ pic.intro }} <br><span class="label label-default">{{ pic.date }}</span>
 </div>

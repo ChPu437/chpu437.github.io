@@ -7,9 +7,6 @@ permalink: /admission
 slug: admission
 ---
 
-
-[//]: # (图片链接需要修改)
-
 <style>
 /* new styles added below*/
 h2 {
@@ -96,6 +93,4 @@ img {
 
 群号: 1057069299
 
-
-![交流QQ群](https://chpu437.github.io/images/admission/qq_qun_id.jpg)
-
+<img src="{{ site.baseurl }}/images/admission/qq_qun_id.jpg" alt="交流QQ群" />
