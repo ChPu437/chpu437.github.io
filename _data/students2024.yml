@@ -9,14 +9,13 @@
   id: maozhouxiang
   photo: maozhouxiang.jpg
   grade: 2024级
-  brief_interest: 弱监督学习、软件开发
+  brief_interest: 软件工程、大模型分布式推理
   biography:
     - "NOI2023 银牌"
     - "江苏省大学生程序设计比赛季军"
-    - "2024年ICPC & CCPC区域赛银奖"
-    - "2025年华为软件精英挑战赛江山赛区二等奖"
-    - "开源社区活跃贡献者"
-    - "热爱开源事业与全栈技术"
+    - "2025年ICPC区域赛（武汉站）金奖"
+    - "指导多个院级、校级重点软件工程项目开发"
+    - "大模型基础设施研究员"
 
 - name: 周子涵
   id: zhouzihan
