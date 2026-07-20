@@ -5,11 +5,87 @@
 #  link: 
 #  biography:
 
-- name: 可能是你！
-  id: placeholder
-  photo: placeholder.jpg
+- name: 杜岩旭
+  id: duyanxu
+  photo: duyanxu.jpg
   grade: 2025级
-  brief_interest: 计算机科学
+  brief_interest: 传统算法，机器学习
   biography:
+    - "NOI2024 银牌"
+    - "2026年江苏省大学生程序设计大赛 季军"
+    - "2025年ICPC西安站，CCPC郑州站 金奖"
+    - "第九届拓竹杯·清华大学软件设计大赛 三等奖"
+    - "ICPC EC-Final 2026 铜奖"
+
+- name: 颜熙
+  id: yanxi
+  photo: yanxi.jpg
+  grade: 2025级
+  brief_interest: 算法设计与分析
+  biography:
+    - "NOI2024 银牌"
+    - "2025年ICPC区域赛金奖，CCPC分站赛金奖"
+
+- name: 周天一
+  id: zhoutianyi
+  photo: zhoutianyi.png
+  grade: 2025级
+  brief_interest: AI 技术探索与实践
+  biography:
+    - "NOIP2022&2023 一等奖"
+    - "ICPC/CCPC 区域赛金牌，江苏省大学生程序设计竞赛季军"
+    - "独立组织面向计算机系大一新生的程序设计期末公益复习讲座"
+    - "棒垒球社成员"
+    - "热爱技术，享受探索未知的过程，当前关注 AI Agent 方向"
+
+- name: 林祥威
+  id: linxiangwei
+  photo: linxiangwei.jpg
+  grade: 2025级
+  brief_interest: 人工智能安全，项目开发
+  biography:
+    - "NOIP2023 一等奖"
+    - "2025年ICPC上海站铜奖"
+    - "2026年江苏省大学生程序设计比赛金奖"
+    - "东南大学校级优秀共青团员"
+
+- name: 严静萱
+  id: yanjingxuan
+  photo: yanjingxuan.jpg
+  grade: 2025级
+  brief_interest: 算法相关
+  biography:
+    - "NOIP2022&2023 一等奖"
+    - "2025年ICPC区域赛铜奖"
+    - "2025年CCPC女生专场银奖"
+    - "2026年江苏省大学生程序设计比赛金奖"
+
+- name: 黄高乾
+  id: huanggaoqian
+  photo: huanggaoqian.jpg
+  grade: 2025级
+  brief_interest: 智慧交通
+  biography:
+    - "2026年美国大学生数学建模竞赛 Outstanding Winner & COMAP Scholarship Award"
+    - "2026蓝桥杯C/C++程序设计大学A组 国家级二等奖"
 
 
+- name: 张陶然
+  id: zhangtaoran
+  photo: zhangtaoran.jpg
+  grade: 2025级
+  brief_interest: 计算机编程、项目开发、逆向
+  biography:
+    - "中国大学生计算机设计大赛江苏赛区特等奖"
+    - "2026年美国大学生数学建模竞赛 Outstanding Winner & COMAP Scholarship Award"
+    - "开源社区积极贡献者，项目包括音乐解析下载系统、轻量化音乐客户端、AI 聊天工具等"
+
+- name: 于千恒
+  id: yuqianheng
+  photo: yuqianheng.jpg
+  grade: 2025级
+  brief_interest: AI Agent, 算法设计
+  biography:
+    - "2026年美国大学生数学建模竞赛 Outstanding Winner & COMAP Scholarship Award"
+    - "2026年全国大学生英语竞赛 国家级二等奖"
+    - "计算机拔尖班宣传委员"
