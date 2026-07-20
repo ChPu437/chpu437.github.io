@@ -225,7 +225,7 @@ slug: team
   <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }} </a></h4>
   年级: {{ member.grade }}
-  <br>兴趣: {{ member.brief_interest }}
+  <br>毕业去向: {{ member.gradinfo }}
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#2022-{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
     了解更多
