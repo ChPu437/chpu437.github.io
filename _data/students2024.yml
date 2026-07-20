@@ -17,14 +17,37 @@
     - "指导多个院级、校级重点软件工程项目开发"
     - "大模型基础设施研究员"
 
-- name: 周子涵
-  id: zhouzihan
-  photo: zhouzihan.jpg
+- name: 杜鑫研
+  id: duxinyan
+  photo: duxinyan.jpg
   grade: 2024级
-  brief_interest: 计算机科学
+  brief_interest: 算法竞赛
   biography:
-    - "2024-2025年东南大学“优秀团员”"
-    - "2025寒假算法天梯大赛“编程后浪奖”"
+    - NOI2023 银牌
+    - "江苏省大学生程序设计比赛季军"
+    - "2025年ICPC 区域赛金奖"
+    - "2025年ICPC 东亚区决赛银奖"
+    - "2025年百度之星决赛金奖"
+
+- name: 靳赫涛
+  id: jinhetao
+  photo: jinhetao.jpg
+  grade: 2024级
+  brief_interest: 算法相关
+  biography:
+    - NOI2023 银牌
+    - "江苏省大学生程序设计比赛季军"
+    - "2025年ICPC 区域赛金奖"
+    - "2024年ICPC & CCPC区域赛银奖"
+    - "2025年华为软件精英挑战赛江山赛区二等奖"
+
+- name: 吴俊翔
+  id: wujunxiang
+  photo: wujunxiang.png
+  grade: 2024级
+  brief_interest: 世界模型，可信机器学习
+  biography:
+    - ICML 2026（poster），共一第一
 
 - name: 魏思远
   id: weisiyuan
@@ -35,26 +58,39 @@
     - NOIP2022 NOIP2021 省级一等奖
     - 2025年美国大学生数学建模比赛H奖
 
-- name: 杜鑫研
-  id: duxinyan
-  photo: duxinyan.jpg
+- name: 张闰祺
+  id: zhangrunqi
+  photo: zhangrunqi.jpg
   grade: 2024级
-  brief_interest: 算法竞赛
+  brief_interest: ACM / AI
   biography:
-    - NOI2023 银牌
-    - "江苏省大学生程序设计比赛季军"
-    - "2024年ICPC & CCPC区域赛银奖"
-    - "2025年华为软件精英挑战赛江山赛区二等奖"
-    - 现校CPC选手
+    - "2025年ICPC南京区域赛铜牌"
+    - "2026年江苏省大学生程序设计比赛金牌"
+    - "2026年CCPC南昌邀请赛银牌"
 
-- name: 靳赫涛
-  id: jinhetao
-  photo: jinhetao.jpg
+- name: 陈怡佳
+  id: chenyijia
+  photo: chenyijia.jpg
   grade: 2024级
-  brief_interest: 算法相关
+  brief_interest: 计算机科学
   biography:
-    - NOI2023 银牌
-    - "江苏省大学生程序设计比赛季军"
-    - "2024年ICPC & CCPC区域赛银奖"
-    - "2025年华为软件精英挑战赛江山赛区二等奖"
+    - "2025年数学建模竞赛国家一等奖"
+    - "202年美国大学生数学建模比赛M奖"
+
+- name: 周子涵
+  id: zhouzihan
+  photo: zhouzihan.jpg
+  grade: 2024级
+  brief_interest: 计算机科学
+  biography:
+    - "2024-2025年东南大学“优秀团员”"
+    - "2025寒假算法天梯大赛“编程后浪奖”"
+    - "2025年中国数学建模大赛江苏省二等奖"                                     
+    - "2026东南大学程序设计竞赛优秀奖"
+
+
+
+
+
+
 
