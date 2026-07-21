@@ -22,7 +22,7 @@
 - name: 单冯
   id: shanfeng
   photo: shanfeng.jpg
-  info: 副教授，博士生导师
+  info: 副教授，博士生导师，2022级拔尖班班主任
   email: shanfeng@seu.edu.cn
   link: https://fengshan.seu-netsi.net
   role: 
@@ -34,7 +34,7 @@
 - name: 丁玎
   id: dingding
   photo: dingding.png
-  info: 副教授，硕士生导师
+  info: 副教授，硕士生导师，2024级拔尖班班主任
   email: dingding-1@seu.edu.cn
   link: https://cs.seu.edu.cn/dingding
   role: 
@@ -48,7 +48,7 @@
 - name: 王万元
   id: wangwanyuan
   photo: wangwanyuan.png
-  info: 副教授，博士生导师
+  info: 副教授，博士生导师，2025级拔尖班班主任
   email: wywang@seu.edu.cn
   link: https://wanyuanwang.github.io/
   role: 
