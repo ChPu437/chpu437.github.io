@@ -25,12 +25,11 @@ slug: team
 {% endif %}
 
 <div class="col-sm-9 clearfix">
-  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="25%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />  <!-- 该链接需要修改 -->
+  <img class="img-responsive img-rounded" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="22%" style="float: left; aspect-ratio: 1/1; object-fit: cover;" />  <!-- 该链接需要修改 -->
   <h4><a href="{{member.link}}" target="_blank">{{ member.name }}</a></h4>
   {{ member.info }}
   <br>电子邮箱: <{{ member.email }}>
   <br>个人主页: <a href="{{member.link}}" target="_blank">{{ member.link }}</a>
-  <br>负责内容: {{ member.role }}
 
   {% if member.id != "placeholder" %}
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ member.id }}" aria-expanded="false" aria-controls="collapseExample">
