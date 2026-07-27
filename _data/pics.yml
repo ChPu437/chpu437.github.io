@@ -1,19 +1,19 @@
 ourgroup:
   - id: 2026_06_03_seu_party
     image: 2501.jpg
-    intro: "开展学生集体聚餐活动"
+    intro: "25级拔尖班开展学生集体聚餐活动"
     date: "2026-06-03"
   - id: 2025_11_05_monitor
     image: 2414.jpg
-    intro: "组织开展班会及经验分享活动"
+    intro: "24级拔尖班组织开展班会及经验分享活动"
     date: "2025-11-05"
   - id: 2025_10_23_cncc
     image: 2413.png
-    intro: "参加中国计算机大会（CNCC 2025）"
+    intro: "24级拔尖班参加中国计算机大会（CNCC 2025）"
     date: "2025-10-23"
   - id: 2025_10_19_bbq
     image: 2415.jpg
-    intro: "组织户外烧烤团建活动"
+    intro: "24级拔尖班组织户外烧烤团建活动"
     date: "2025-10-19"
   - id: 2025_08_19_tour_1
     image: xianggang1.jpg
