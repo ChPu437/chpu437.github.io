@@ -22,8 +22,20 @@
 - date: 2026/5
   headline: "袁振航(24级)获美国大学生数学建模竞赛M奖，胡玉冰(24级)获H奖"
 
+- date: 2026/5
+  headline: "汪骏宇(22级)以共同第一作者身份撰写的论文 Floating-Point Robustness in Parametric Surface Continuous Collision Detection: From Algorithm to Benchmarking 被 SIGGRAPH 2026 接收"
+
+- date: 2026/5
+  headline: "刘益杉(22级)以共同第一作者身份撰写的论文 Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training 被 ICML 2026 接收"
+
+- date: 2026/5
+  headline: "吴俊翔(24级)以第一作者身份撰写的论文 Trustworthy Federated Label Distribution Learning under Annotation Quality Disparity 被 ICML 2026 接收"
+
+- date: 2026/4 
+  headline: "刘一鸣(23级)、杜鑫研(24级)、靳赫涛(24级)获中国大学生程序设计竞赛决赛铜奖"
+
 - date: 2026/4
-  headline: "隆乾(23级)以共一第一身份撰写的论文 Contrastive Chain-of-Thought Decoding for Large Language Models to Mitigate Inference Hallucination 被 IJCNN 接收"
+  headline: "隆乾(23级)以共一第一身份撰写的论文 Contrastive Chain-of-Thought Decoding for Large Language Models to Mitigate Inference Hallucination 被 IJCNN 2026 接收"
 
 - date: 2026/4
   headline: "黄高乾(25级)、于千恒(25级)获蓝桥杯C++A组省赛一等奖"
@@ -35,7 +47,7 @@
   headline: "靳赫涛(24级)、杜鑫研(24级)、毛周祥(24级)获2025年ICPC EC Final银奖，刘一鸣(23级)、何辰玮(23级)、王俊迪(23级)、颜熙(25级)、杜岩旭(25级)、周天一(25级)获铜奖"
 
 - date: 2026/2
-  headline: "赵彦凯(24级)以一作身份撰写的论文 Virtual reality Experiential learning System for Ancient Chinese poetry 被 IEEE International Conference on Computer Supported Cooperative Work in Design 接收"
+  headline: "赵彦凯(24级)以一作身份撰写的论文 Virtual reality Experiential learning System for Ancient Chinese poetry 被 IEEE International Conference on Computer Supported Cooperative Work in Design 2026 接收"
 
 - date: 2025/12
   headline: "杜鑫研(24级)获百度之星程序设计大赛决赛一等奖"
@@ -47,7 +59,7 @@
   headline: "严静萱(25级)获CCPC2025女生专场银奖"
 
 - date: 2025/11
-  headline: "余喆诚(22级)以共同第一作者身份（共一第一）撰写的论文被CCF-A类会议AAAI接收，共同作者包括杨晨（23级）、谌涛（23级），指导老师为吕妍副教授"
+  headline: "余喆诚(22级)以共同第一作者身份（共一第一）撰写的论文被 AAAI 2026 接收，共同作者包括杨晨（23级）、谌涛（23级），指导老师为吕妍副教授"
 
 - date: 2025/11
   headline: "杜鑫研(24级)、毛周祥(24级)、靳赫涛(24级)获第50届ICPC国际大学生程序设计竞赛区域赛武汉站金奖，刘一鸣(23级)、何辰玮(23级)、王俊迪(23级)获银奖"
@@ -72,6 +84,9 @@
 
 - date: 2025/8
   headline: "毛周祥(24级)、李睿佳(24级)获百度之星大学生程序设计竞赛一等奖，魏子何(24级)获二等奖"
+
+- date: 2025/8
+  headline: "唐祥杰(22级)以第一作者身份撰写的论文 MIRaSeg: Exploring mmWave Radar and Low Resolution Infrared Sensor Fusion for Robust Human Semantic Segmentation 被 PRCV 2025 接收"
 
 - date: 2025/7
   headline: "赵彦凯(24级)获“文化强国杯”全国高校文学知识挑战赛一等奖"
