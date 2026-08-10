@@ -31,15 +31,15 @@ img {
 }
 </style>
 
-本文“常见问题”根据往年招生选拔中学生和家长关心的问题整理、汇总得到，本文“回答”根据往年招生政策和当年招生政策进行解读，请以当年“本科新生二次选拔公告”为准，<font color="red">在正式“选拔公告”发布前，本问答仅供参考</font>。
+本文“常见问题”根据往年招生选拔中学生和家长关心的问题整理、汇总得到，本文“回答”根据往年招生政策和当年招生政策进行解读，请以当年“本科新生二次选拔公告”为准，<font color="black">在正式“选拔公告”发布前，本问答仅供参考</font>。
 
 ## 最新公告
 
-东南大学2026级本科新生二次选拔公告待发布，往年参考
-<a href="https://jwc.seu.edu.cn/2025/0811/c23285a536272/page.htm"><span style="color:blue;">东南大学2025级本科新生二次选拔公告</span></a>。
+<!--东南大学2026级本科新生二次选拔公告待发布，往年参考-->
+<a href="https://jwc.seu.edu.cn/2026/0810/c23285a578974/page.htm"><span style="color:blue;">东南大学2026级本科新生二次选拔公告</span></a>。
 
-2026年“计算机科学拔尖”选拔方案与项目简介待发布，往年参考
-<a href="https://jwc.seu.edu.cn/_upload/article/files/f0/2e/605219644457906fed3ba60c42d3/e61bd5d5-a455-4b4c-b381-c2d73282014b.docx"><span style="color:blue;">2025年“计算机科学拔尖”选拔方案与项目简介</span></a>。
+<!--2026年“计算机科学拔尖”选拔方案与项目简介待发布，往年参考-->
+<a href="https://jwc.seu.edu.cn/_upload/article/files/7f/d4/f0f040b744a7842ad301994bcd89/2a60da6b-c295-486b-8344-f6b4050898e1.docx"><span style="color:blue;">2026年“计算机科学拔尖”选拔方案与项目简介</span></a>。
 
 
 ## 常见问题
